@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sxjs.common.widget.percentlayout.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.sxjs.common.widget.aspect_ratio_layout.AspectRatioLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical"
+        app:Layout_viewAspectRatio="0.9"
+        android:background="@mipmap/arrivalnotice_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="到货通知"
+            android:textSize="16sp"
+            android:layout_marginBottom="18dp"
+            android:textColor="@color/little_title_color"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="请留下您的手机号码，商品到货时，小搭会第一时间通知您！"
+            android:textSize="13sp"
+            android:layout_marginBottom="14dp"
+            android:textColor="@color/text_color_1"/>
+        
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center_vertical"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/circular_edit_bg_shape"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:textColor="@color/little_title_color"
+                android:hint="手机号"
+                android:inputType="number"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:background="@null"/>
+            
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="8dp"
+                android:visibility="gone"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/close_shop"/>
+            
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_dark_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="取消"
+                android:gravity="center"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textSize="14sp"
+                android:textColor="@color/text_color_1"/>
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/line_dark_color"/>
+
+            <TextView
+                android:id="@+id/confirm"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="确定"
+                android:gravity="center"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textSize="14sp"
+                android:textColor="@color/theme_dark_color"/>
+
+        </LinearLayout>
+
+    </com.sxjs.common.widget.aspect_ratio_layout.AspectRatioLinearLayout>
+
+</com.sxjs.common.widget.percentlayout.PercentRelativeLayout>

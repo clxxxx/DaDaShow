@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xzry.takeshow.widget.TitleBarView
+        android:id="@+id/after_sale_state_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/activity_bg_color"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="17dp"
+                android:paddingTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="退货单号："
+                    android:textSize="14sp"
+                    android:textColor="@color/little_title_color"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4646461461651561616"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="9dp"
+                    android:textColor="@color/little_title_color"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="17dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="申请时间："
+                    android:textSize="14sp"
+                    android:textColor="@color/little_title_color"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2017-05-20 18:00:00"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="9dp"
+                    android:textColor="@color/little_title_color"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/activity_bg_color"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/commodity_img"
+                    android:layout_width="67dp"
+                    android:layout_height="67dp"
+                    android:scaleType="centerCrop"
+                    android:background="@color/theme_light_color" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:id="@+id/commodity_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:layout_toLeftOf="@+id/price"
+                        android:lines="2"
+                        android:ellipsize="end"
+                        android:text="乐町2017夏季新款女装绿色短款刺绣宽松短袖T恤女夏韩版纯色上衣"
+                        android:textColor="@color/little_title_color"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/after_sale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1件"
+                            android:textColor="@color/theme_dark_color"
+                            android:textSize="12sp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="仅退款"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@color/theme_dark_color"
+                            android:textSize="12sp"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/activity_bg_color"/>
+
+            <LinearLayout
+                android:id="@+id/info_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="联系客服"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:background="@mipmap/bottom_bg"/>
+
+</LinearLayout>

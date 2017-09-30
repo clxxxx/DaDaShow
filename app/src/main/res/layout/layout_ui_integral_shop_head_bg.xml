@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sxjs.common.widget.percentlayout.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/user_head_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+       <!--// app:layout_collapseParallaxMultiplier="0.8"-->
+
+        <com.sxjs.common.widget.imageview.ExpandImageView
+            android:id="@+id/shop_inte_headimg"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_aspectRatio="260%"
+            app:layout_widthPercent="100%"
+            android:layout_marginTop="@dimen/title_h"
+            android:background="@color/red" />
+</com.sxjs.common.widget.percentlayout.PercentLinearLayout>

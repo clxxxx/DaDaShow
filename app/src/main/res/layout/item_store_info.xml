@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.sxjs.common.widget.percentlayout.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="wrap_content">
+        <com.sxjs.common.widget.imageview.ExpandImageView
+            android:id="@+id/avatar_img"
+            android:scaleType="centerCrop"
+            app:roundAsCircle="true"
+            app:placeholderImage="@mipmap/pho_avatar"
+            android:layout_width="57dp"
+            android:layout_height="57dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ONLY（时代城）"
+            android:layout_above="@+id/address"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@+id/avatar_img"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/title_color"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="距您1.2km"
+            android:layout_alignBottom="@+id/name"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/text_color_3"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="深圳市宝安区西乡街道办泰丰时代城3楼"
+            android:layout_alignLeft="@+id/name"
+            android:layout_toLeftOf="@+id/more"
+            android:layout_marginRight="10dp"
+            android:layout_alignBottom="@+id/avatar_img"
+            android:textColor="@color/text_color_1"
+            android:textSize="13sp"/>
+
+        <ImageView
+            android:id="@+id/more"
+            android:scaleType="centerCrop"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/more"
+            android:layout_alignTop="@+id/address"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </com.sxjs.common.widget.percentlayout.PercentRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/line_dark_color"/>
+
+
+    <com.sxjs.common.widget.percentlayout.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <com.sxjs.common.widget.imageview.ExpandImageView
+            android:id="@+id/img1"
+            android:scaleType="centerCrop"
+            app:roundAsCircle="true"
+            app:placeholderImage="@mipmap/pho_avatar"
+            android:layout_width="0dp"
+            app:layout_aspectRatio="100%"
+            app:layout_widthPercent="30%"
+            android:layout_height="0dp"/>
+
+        <com.sxjs.common.widget.imageview.ExpandImageView
+            android:id="@+id/img2"
+            android:scaleType="centerCrop"
+            app:roundAsCircle="true"
+            app:placeholderImage="@mipmap/pho_avatar"
+            android:layout_width="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            app:layout_aspectRatio="100%"
+            app:layout_widthPercent="30%"
+            android:layout_height="0dp"/>
+
+        <com.sxjs.common.widget.imageview.ExpandImageView
+            android:id="@+id/img3"
+            android:scaleType="centerCrop"
+            app:roundAsCircle="true"
+            app:placeholderImage="@mipmap/pho_avatar"
+            android:layout_width="0dp"
+            app:layout_aspectRatio="100%"
+            app:layout_widthPercent="30%"
+            android:layout_height="0dp"/>
+
+    </com.sxjs.common.widget.percentlayout.PercentLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_light_color"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ico_location"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地图"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/title_color"
+                android:textSize="12sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ico_telephone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电话"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/title_color"
+                android:textSize="12sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ico_shop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="店铺"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/title_color"
+                android:textSize="12sp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    
+
+</LinearLayout>

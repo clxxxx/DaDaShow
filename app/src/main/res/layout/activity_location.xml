@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.xzry.takeshow.widget.TitleBarView
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/long_line_horizontal" />
+
+    <!--搜索框内容-->
+    <LinearLayout
+        android:id="@+id/ll_fashion_dynamic_search"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/fashionworld_search"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerCrop" />
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@null"
+            android:singleLine="true"
+            android:text="搜索"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        style="@style/long_line_horizontal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/all_city"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@android:color/white">-->
+
+        <!--</android.support.v7.widget.RecyclerView>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.xzry.takeshow.ui.homepager.widget.PinnedHeaderExpandableListView
+                android:id="@+id/all_city"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="@null"
+                android:childDivider="@color/activity_bg_color"
+                android:childIndicatorLeft="0dp"
+                android:divider="@color/activity_bg_color"
+                android:dividerHeight="1px"
+                android:groupIndicator="@null"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+        <com.xzry.takeshow.ui.homepager.widget.SideLetterBar
+            android:id="@+id/side_letter_bar"
+            android:layout_width="@dimen/side_letter_bar_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="30dp"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/tvSideBarHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_side_bar_bg"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:textColor="@android:color/white"
+            android:textSize="48sp"
+            android:visibility="gone"
+            tools:text="A"
+            tools:visibility="visible" />
+
+        <!--<com.xzry.takeshow.widget.PinnedHeaderExpandableListView-->
+            <!--android:id="@+id/search_result"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:cacheColorHint="@null"-->
+            <!--android:childDivider="@color/bg_color"-->
+            <!--android:childIndicatorLeft="0dp"-->
+            <!--android:divider="@color/bg_color"-->
+            <!--android:dividerHeight="1px"-->
+            <!--android:groupIndicator="@null"-->
+            <!--android:scrollbarAlwaysDrawHorizontalTrack="false"-->
+            <!--android:scrollbars="none"></com.xzry.takeshow.widget.PinnedHeaderExpandableListView>-->
+
+        <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/search_result"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@android:color/white">-->
+
+        <!--</android.support.v7.widget.RecyclerView>-->
+
+        <include layout="@layout/cp_view_no_search_result" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,6006 @@
+{
+  "data": {
+    "row": [
+      {
+        "id": "1",
+        "parent_id": "0",
+        "name": "中国",
+        "type": "0"
+      },
+      {
+        "id": "2",
+        "parent_id": "1",
+        "name": "北京市",
+        "type": "1"
+      },
+      {
+        "id": "3",
+        "parent_id": "1",
+        "name": "安徽省",
+        "type": "1"
+      },
+      {
+        "id": "4",
+        "parent_id": "1",
+        "name": "福建省",
+        "type": "1"
+      },
+      {
+        "id": "5",
+        "parent_id": "1",
+        "name": "甘肃省",
+        "type": "1"
+      },
+      {
+        "id": "6",
+        "parent_id": "1",
+        "name": "广东省",
+        "type": "1"
+      },
+      {
+        "id": "7",
+        "parent_id": "1",
+        "name": "广西壮族自治区",
+        "type": "1"
+      },
+      {
+        "id": "8",
+        "parent_id": "1",
+        "name": "贵州省",
+        "type": "1"
+      },
+      {
+        "id": "9",
+        "parent_id": "1",
+        "name": "海南省",
+        "type": "1"
+      },
+      {
+        "id": "10",
+        "parent_id": "1",
+        "name": "河北省",
+        "type": "1"
+      },
+      {
+        "id": "11",
+        "parent_id": "1",
+        "name": "河南省",
+        "type": "1"
+      },
+      {
+        "id": "12",
+        "parent_id": "1",
+        "name": "黑龙江省",
+        "type": "1"
+      },
+      {
+        "id": "13",
+        "parent_id": "1",
+        "name": "湖北省",
+        "type": "1"
+      },
+      {
+        "id": "14",
+        "parent_id": "1",
+        "name": "湖南省",
+        "type": "1"
+      },
+      {
+        "id": "15",
+        "parent_id": "1",
+        "name": "吉林省",
+        "type": "1"
+      },
+      {
+        "id": "16",
+        "parent_id": "1",
+        "name": "江苏省",
+        "type": "1"
+      },
+      {
+        "id": "17",
+        "parent_id": "1",
+        "name": "江西省",
+        "type": "1"
+      },
+      {
+        "id": "18",
+        "parent_id": "1",
+        "name": "辽宁省",
+        "type": "1"
+      },
+      {
+        "id": "19",
+        "parent_id": "1",
+        "name": "内蒙古自治区",
+        "type": "1"
+      },
+      {
+        "id": "20",
+        "parent_id": "1",
+        "name": "宁夏回族自治区",
+        "type": "1"
+      },
+      {
+        "id": "21",
+        "parent_id": "1",
+        "name": "青海省",
+        "type": "1"
+      },
+      {
+        "id": "22",
+        "parent_id": "1",
+        "name": "山东省",
+        "type": "1"
+      },
+      {
+        "id": "23",
+        "parent_id": "1",
+        "name": "山西省",
+        "type": "1"
+      },
+      {
+        "id": "24",
+        "parent_id": "1",
+        "name": "陕西省",
+        "type": "1"
+      },
+      {
+        "id": "25",
+        "parent_id": "1",
+        "name": "上海市",
+        "type": "1"
+      },
+      {
+        "id": "26",
+        "parent_id": "1",
+        "name": "四川省",
+        "type": "1"
+      },
+      {
+        "id": "27",
+        "parent_id": "1",
+        "name": "天津市",
+        "type": "1"
+      },
+      {
+        "id": "28",
+        "parent_id": "1",
+        "name": "西藏自治区",
+        "type": "1"
+      },
+      {
+        "id": "29",
+        "parent_id": "1",
+        "name": "新疆维吾尔自治区",
+        "type": "1"
+      },
+      {
+        "id": "30",
+        "parent_id": "1",
+        "name": "云南省",
+        "type": "1"
+      },
+      {
+        "id": "31",
+        "parent_id": "1",
+        "name": "浙江省",
+        "type": "1"
+      },
+      {
+        "id": "32",
+        "parent_id": "1",
+        "name": "重庆市",
+        "type": "1"
+      },
+      {
+        "id": "33",
+        "parent_id": "1",
+        "name": "香港特别行政区",
+        "type": "1"
+      },
+      {
+        "id": "34",
+        "parent_id": "1",
+        "name": "澳门特别行政区",
+        "type": "1"
+      },
+      {
+        "id": "35",
+        "parent_id": "1",
+        "name": "台湾省",
+        "type": "1"
+      },
+      {
+        "id": "36",
+        "parent_id": "3",
+        "name": "安庆",
+        "type": "2"
+      },
+      {
+        "id": "37",
+        "parent_id": "3",
+        "name": "蚌埠",
+        "type": "2"
+      },
+      {
+        "id": "38",
+        "parent_id": "3",
+        "name": "巢湖",
+        "type": "2"
+      },
+      {
+        "id": "39",
+        "parent_id": "3",
+        "name": "池州",
+        "type": "2"
+      },
+      {
+        "id": "40",
+        "parent_id": "3",
+        "name": "滁州",
+        "type": "2"
+      },
+      {
+        "id": "41",
+        "parent_id": "3",
+        "name": "阜阳",
+        "type": "2"
+      },
+      {
+        "id": "42",
+        "parent_id": "3",
+        "name": "淮北",
+        "type": "2"
+      },
+      {
+        "id": "43",
+        "parent_id": "3",
+        "name": "淮南",
+        "type": "2"
+      },
+      {
+        "id": "44",
+        "parent_id": "3",
+        "name": "黄山",
+        "type": "2"
+      },
+      {
+        "id": "45",
+        "parent_id": "3",
+        "name": "六安",
+        "type": "2"
+      },
+      {
+        "id": "46",
+        "parent_id": "3",
+        "name": "马鞍山",
+        "type": "2"
+      },
+      {
+        "id": "47",
+        "parent_id": "3",
+        "name": "宿州",
+        "type": "2"
+      },
+      {
+        "id": "48",
+        "parent_id": "3",
+        "name": "铜陵",
+        "type": "2"
+      },
+      {
+        "id": "49",
+        "parent_id": "3",
+        "name": "芜湖",
+        "type": "2"
+      },
+      {
+        "id": "50",
+        "parent_id": "3",
+        "name": "宣城",
+        "type": "2"
+      },
+      {
+        "id": "51",
+        "parent_id": "3",
+        "name": "亳州",
+        "type": "2"
+      },
+      {
+        "id": "52",
+        "parent_id": "2",
+        "name": "北京",
+        "type": "2"
+      },
+      {
+        "id": "53",
+        "parent_id": "4",
+        "name": "福州",
+        "type": "2"
+      },
+      {
+        "id": "54",
+        "parent_id": "4",
+        "name": "龙岩",
+        "type": "2"
+      },
+      {
+        "id": "55",
+        "parent_id": "4",
+        "name": "南平",
+        "type": "2"
+      },
+      {
+        "id": "56",
+        "parent_id": "4",
+        "name": "宁德",
+        "type": "2"
+      },
+      {
+        "id": "57",
+        "parent_id": "4",
+        "name": "莆田",
+        "type": "2"
+      },
+      {
+        "id": "58",
+        "parent_id": "4",
+        "name": "泉州",
+        "type": "2"
+      },
+      {
+        "id": "59",
+        "parent_id": "4",
+        "name": "三明",
+        "type": "2"
+      },
+      {
+        "id": "60",
+        "parent_id": "4",
+        "name": "厦门",
+        "type": "2"
+      },
+      {
+        "id": "61",
+        "parent_id": "4",
+        "name": "漳州",
+        "type": "2"
+      },
+      {
+        "id": "62",
+        "parent_id": "5",
+        "name": "兰州",
+        "type": "2"
+      },
+      {
+        "id": "63",
+        "parent_id": "5",
+        "name": "白银",
+        "type": "2"
+      },
+      {
+        "id": "64",
+        "parent_id": "5",
+        "name": "定西",
+        "type": "2"
+      },
+      {
+        "id": "65",
+        "parent_id": "5",
+        "name": "甘南",
+        "type": "2"
+      },
+      {
+        "id": "66",
+        "parent_id": "5",
+        "name": "嘉峪关",
+        "type": "2"
+      },
+      {
+        "id": "67",
+        "parent_id": "5",
+        "name": "金昌",
+        "type": "2"
+      },
+      {
+        "id": "68",
+        "parent_id": "5",
+        "name": "酒泉",
+        "type": "2"
+      },
+      {
+        "id": "69",
+        "parent_id": "5",
+        "name": "临夏",
+        "type": "2"
+      },
+      {
+        "id": "70",
+        "parent_id": "5",
+        "name": "陇南",
+        "type": "2"
+      },
+      {
+        "id": "71",
+        "parent_id": "5",
+        "name": "平凉",
+        "type": "2"
+      },
+      {
+        "id": "72",
+        "parent_id": "5",
+        "name": "庆阳",
+        "type": "2"
+      },
+      {
+        "id": "73",
+        "parent_id": "5",
+        "name": "天水",
+        "type": "2"
+      },
+      {
+        "id": "74",
+        "parent_id": "5",
+        "name": "武威",
+        "type": "2"
+      },
+      {
+        "id": "75",
+        "parent_id": "5",
+        "name": "张掖",
+        "type": "2"
+      },
+      {
+        "id": "76",
+        "parent_id": "6",
+        "name": "广州",
+        "type": "2"
+      },
+      {
+        "id": "77",
+        "parent_id": "6",
+        "name": "深圳",
+        "type": "2"
+      },
+      {
+        "id": "78",
+        "parent_id": "6",
+        "name": "潮州",
+        "type": "2"
+      },
+      {
+        "id": "79",
+        "parent_id": "6",
+        "name": "东莞",
+        "type": "2"
+      },
+      {
+        "id": "80",
+        "parent_id": "6",
+        "name": "佛山",
+        "type": "2"
+      },
+      {
+        "id": "81",
+        "parent_id": "6",
+        "name": "河源",
+        "type": "2"
+      },
+      {
+        "id": "82",
+        "parent_id": "6",
+        "name": "惠州",
+        "type": "2"
+      },
+      {
+        "id": "83",
+        "parent_id": "6",
+        "name": "江门",
+        "type": "2"
+      },
+      {
+        "id": "84",
+        "parent_id": "6",
+        "name": "揭阳",
+        "type": "2"
+      },
+      {
+        "id": "85",
+        "parent_id": "6",
+        "name": "茂名",
+        "type": "2"
+      },
+      {
+        "id": "86",
+        "parent_id": "6",
+        "name": "梅州",
+        "type": "2"
+      },
+      {
+        "id": "87",
+        "parent_id": "6",
+        "name": "清远",
+        "type": "2"
+      },
+      {
+        "id": "88",
+        "parent_id": "6",
+        "name": "汕头",
+        "type": "2"
+      },
+      {
+        "id": "89",
+        "parent_id": "6",
+        "name": "汕尾",
+        "type": "2"
+      },
+      {
+        "id": "90",
+        "parent_id": "6",
+        "name": "韶关",
+        "type": "2"
+      },
+      {
+        "id": "91",
+        "parent_id": "6",
+        "name": "阳江",
+        "type": "2"
+      },
+      {
+        "id": "92",
+        "parent_id": "6",
+        "name": "云浮",
+        "type": "2"
+      },
+      {
+        "id": "93",
+        "parent_id": "6",
+        "name": "湛江",
+        "type": "2"
+      },
+      {
+        "id": "94",
+        "parent_id": "6",
+        "name": "肇庆",
+        "type": "2"
+      },
+      {
+        "id": "95",
+        "parent_id": "6",
+        "name": "中山",
+        "type": "2"
+      },
+      {
+        "id": "96",
+        "parent_id": "6",
+        "name": "珠海",
+        "type": "2"
+      },
+      {
+        "id": "97",
+        "parent_id": "7",
+        "name": "南宁",
+        "type": "2"
+      },
+      {
+        "id": "98",
+        "parent_id": "7",
+        "name": "桂林",
+        "type": "2"
+      },
+      {
+        "id": "99",
+        "parent_id": "7",
+        "name": "百色",
+        "type": "2"
+      },
+      {
+        "id": "100",
+        "parent_id": "7",
+        "name": "北海",
+        "type": "2"
+      },
+      {
+        "id": "101",
+        "parent_id": "7",
+        "name": "崇左",
+        "type": "2"
+      },
+      {
+        "id": "102",
+        "parent_id": "7",
+        "name": "防城港",
+        "type": "2"
+      },
+      {
+        "id": "103",
+        "parent_id": "7",
+        "name": "贵港",
+        "type": "2"
+      },
+      {
+        "id": "104",
+        "parent_id": "7",
+        "name": "河池",
+        "type": "2"
+      },
+      {
+        "id": "105",
+        "parent_id": "7",
+        "name": "贺州",
+        "type": "2"
+      },
+      {
+        "id": "106",
+        "parent_id": "7",
+        "name": "来宾",
+        "type": "2"
+      },
+      {
+        "id": "107",
+        "parent_id": "7",
+        "name": "柳州",
+        "type": "2"
+      },
+      {
+        "id": "108",
+        "parent_id": "7",
+        "name": "钦州",
+        "type": "2"
+      },
+      {
+        "id": "109",
+        "parent_id": "7",
+        "name": "梧州",
+        "type": "2"
+      },
+      {
+        "id": "110",
+        "parent_id": "7",
+        "name": "玉林",
+        "type": "2"
+      },
+      {
+        "id": "111",
+        "parent_id": "8",
+        "name": "贵阳",
+        "type": "2"
+      },
+      {
+        "id": "112",
+        "parent_id": "8",
+        "name": "安顺",
+        "type": "2"
+      },
+      {
+        "id": "113",
+        "parent_id": "8",
+        "name": "毕节",
+        "type": "2"
+      },
+      {
+        "id": "114",
+        "parent_id": "8",
+        "name": "六盘水",
+        "type": "2"
+      },
+      {
+        "id": "115",
+        "parent_id": "8",
+        "name": "黔东南",
+        "type": "2"
+      },
+      {
+        "id": "116",
+        "parent_id": "8",
+        "name": "黔南",
+        "type": "2"
+      },
+      {
+        "id": "117",
+        "parent_id": "8",
+        "name": "黔西南",
+        "type": "2"
+      },
+      {
+        "id": "118",
+        "parent_id": "8",
+        "name": "铜仁",
+        "type": "2"
+      },
+      {
+        "id": "119",
+        "parent_id": "8",
+        "name": "遵义",
+        "type": "2"
+      },
+      {
+        "id": "120",
+        "parent_id": "9",
+        "name": "海口",
+        "type": "2"
+      },
+      {
+        "id": "121",
+        "parent_id": "9",
+        "name": "三亚",
+        "type": "2"
+      },
+      {
+        "id": "122",
+        "parent_id": "9",
+        "name": "白沙",
+        "type": "2"
+      },
+      {
+        "id": "123",
+        "parent_id": "9",
+        "name": "保亭",
+        "type": "2"
+      },
+      {
+        "id": "124",
+        "parent_id": "9",
+        "name": "昌江",
+        "type": "2"
+      },
+      {
+        "id": "125",
+        "parent_id": "9",
+        "name": "澄迈县",
+        "type": "2"
+      },
+      {
+        "id": "126",
+        "parent_id": "9",
+        "name": "定安县",
+        "type": "2"
+      },
+      {
+        "id": "127",
+        "parent_id": "9",
+        "name": "东方",
+        "type": "2"
+      },
+      {
+        "id": "128",
+        "parent_id": "9",
+        "name": "乐东",
+        "type": "2"
+      },
+      {
+        "id": "129",
+        "parent_id": "9",
+        "name": "临高县",
+        "type": "2"
+      },
+      {
+        "id": "130",
+        "parent_id": "9",
+        "name": "陵水",
+        "type": "2"
+      },
+      {
+        "id": "131",
+        "parent_id": "9",
+        "name": "琼海",
+        "type": "2"
+      },
+      {
+        "id": "132",
+        "parent_id": "9",
+        "name": "琼中",
+        "type": "2"
+      },
+      {
+        "id": "133",
+        "parent_id": "9",
+        "name": "屯昌县",
+        "type": "2"
+      },
+      {
+        "id": "134",
+        "parent_id": "9",
+        "name": "万宁",
+        "type": "2"
+      },
+      {
+        "id": "135",
+        "parent_id": "9",
+        "name": "文昌",
+        "type": "2"
+      },
+      {
+        "id": "136",
+        "parent_id": "9",
+        "name": "五指山",
+        "type": "2"
+      },
+      {
+        "id": "137",
+        "parent_id": "9",
+        "name": "儋州",
+        "type": "2"
+      },
+      {
+        "id": "138",
+        "parent_id": "10",
+        "name": "石家庄",
+        "type": "2"
+      },
+      {
+        "id": "139",
+        "parent_id": "10",
+        "name": "保定",
+        "type": "2"
+      },
+      {
+        "id": "140",
+        "parent_id": "10",
+        "name": "沧州",
+        "type": "2"
+      },
+      {
+        "id": "141",
+        "parent_id": "10",
+        "name": "承德",
+        "type": "2"
+      },
+      {
+        "id": "142",
+        "parent_id": "10",
+        "name": "邯郸",
+        "type": "2"
+      },
+      {
+        "id": "143",
+        "parent_id": "10",
+        "name": "衡水",
+        "type": "2"
+      },
+      {
+        "id": "144",
+        "parent_id": "10",
+        "name": "廊坊",
+        "type": "2"
+      },
+      {
+        "id": "145",
+        "parent_id": "10",
+        "name": "秦皇岛",
+        "type": "2"
+      },
+      {
+        "id": "146",
+        "parent_id": "10",
+        "name": "唐山",
+        "type": "2"
+      },
+      {
+        "id": "147",
+        "parent_id": "10",
+        "name": "邢台",
+        "type": "2"
+      },
+      {
+        "id": "148",
+        "parent_id": "10",
+        "name": "张家口",
+        "type": "2"
+      },
+      {
+        "id": "149",
+        "parent_id": "11",
+        "name": "郑州",
+        "type": "2"
+      },
+      {
+        "id": "150",
+        "parent_id": "11",
+        "name": "洛阳",
+        "type": "2"
+      },
+      {
+        "id": "151",
+        "parent_id": "11",
+        "name": "开封",
+        "type": "2"
+      },
+      {
+        "id": "152",
+        "parent_id": "11",
+        "name": "安阳",
+        "type": "2"
+      },
+      {
+        "id": "153",
+        "parent_id": "11",
+        "name": "鹤壁",
+        "type": "2"
+      },
+      {
+        "id": "154",
+        "parent_id": "11",
+        "name": "济源",
+        "type": "2"
+      },
+      {
+        "id": "155",
+        "parent_id": "11",
+        "name": "焦作",
+        "type": "2"
+      },
+      {
+        "id": "156",
+        "parent_id": "11",
+        "name": "南阳",
+        "type": "2"
+      },
+      {
+        "id": "157",
+        "parent_id": "11",
+        "name": "平顶山",
+        "type": "2"
+      },
+      {
+        "id": "158",
+        "parent_id": "11",
+        "name": "三门峡",
+        "type": "2"
+      },
+      {
+        "id": "159",
+        "parent_id": "11",
+        "name": "商丘",
+        "type": "2"
+      },
+      {
+        "id": "160",
+        "parent_id": "11",
+        "name": "新乡",
+        "type": "2"
+      },
+      {
+        "id": "161",
+        "parent_id": "11",
+        "name": "信阳",
+        "type": "2"
+      },
+      {
+        "id": "162",
+        "parent_id": "11",
+        "name": "许昌",
+        "type": "2"
+      },
+      {
+        "id": "163",
+        "parent_id": "11",
+        "name": "周口",
+        "type": "2"
+      },
+      {
+        "id": "164",
+        "parent_id": "11",
+        "name": "驻马店",
+        "type": "2"
+      },
+      {
+        "id": "165",
+        "parent_id": "11",
+        "name": "漯河",
+        "type": "2"
+      },
+      {
+        "id": "166",
+        "parent_id": "11",
+        "name": "濮阳",
+        "type": "2"
+      },
+      {
+        "id": "167",
+        "parent_id": "12",
+        "name": "哈尔滨",
+        "type": "2"
+      },
+      {
+        "id": "168",
+        "parent_id": "12",
+        "name": "大庆",
+        "type": "2"
+      },
+      {
+        "id": "169",
+        "parent_id": "12",
+        "name": "大兴安岭",
+        "type": "2"
+      },
+      {
+        "id": "170",
+        "parent_id": "12",
+        "name": "鹤岗",
+        "type": "2"
+      },
+      {
+        "id": "171",
+        "parent_id": "12",
+        "name": "黑河",
+        "type": "2"
+      },
+      {
+        "id": "172",
+        "parent_id": "12",
+        "name": "鸡西",
+        "type": "2"
+      },
+      {
+        "id": "173",
+        "parent_id": "12",
+        "name": "佳木斯",
+        "type": "2"
+      },
+      {
+        "id": "174",
+        "parent_id": "12",
+        "name": "牡丹江",
+        "type": "2"
+      },
+      {
+        "id": "175",
+        "parent_id": "12",
+        "name": "七台河",
+        "type": "2"
+      },
+      {
+        "id": "176",
+        "parent_id": "12",
+        "name": "齐齐哈尔",
+        "type": "2"
+      },
+      {
+        "id": "177",
+        "parent_id": "12",
+        "name": "双鸭山",
+        "type": "2"
+      },
+      {
+        "id": "178",
+        "parent_id": "12",
+        "name": "绥化",
+        "type": "2"
+      },
+      {
+        "id": "179",
+        "parent_id": "12",
+        "name": "伊春",
+        "type": "2"
+      },
+      {
+        "id": "180",
+        "parent_id": "13",
+        "name": "武汉",
+        "type": "2"
+      },
+      {
+        "id": "181",
+        "parent_id": "13",
+        "name": "仙桃",
+        "type": "2"
+      },
+      {
+        "id": "182",
+        "parent_id": "13",
+        "name": "鄂州",
+        "type": "2"
+      },
+      {
+        "id": "183",
+        "parent_id": "13",
+        "name": "黄冈",
+        "type": "2"
+      },
+      {
+        "id": "184",
+        "parent_id": "13",
+        "name": "黄石",
+        "type": "2"
+      },
+      {
+        "id": "185",
+        "parent_id": "13",
+        "name": "荆门",
+        "type": "2"
+      },
+      {
+        "id": "186",
+        "parent_id": "13",
+        "name": "荆州",
+        "type": "2"
+      },
+      {
+        "id": "187",
+        "parent_id": "13",
+        "name": "潜江",
+        "type": "2"
+      },
+      {
+        "id": "188",
+        "parent_id": "13",
+        "name": "神农架林区",
+        "type": "2"
+      },
+      {
+        "id": "189",
+        "parent_id": "13",
+        "name": "十堰",
+        "type": "2"
+      },
+      {
+        "id": "190",
+        "parent_id": "13",
+        "name": "随州",
+        "type": "2"
+      },
+      {
+        "id": "191",
+        "parent_id": "13",
+        "name": "天门",
+        "type": "2"
+      },
+      {
+        "id": "192",
+        "parent_id": "13",
+        "name": "咸宁",
+        "type": "2"
+      },
+      {
+        "id": "193",
+        "parent_id": "13",
+        "name": "襄樊",
+        "type": "2"
+      },
+      {
+        "id": "194",
+        "parent_id": "13",
+        "name": "孝感",
+        "type": "2"
+      },
+      {
+        "id": "195",
+        "parent_id": "13",
+        "name": "宜昌",
+        "type": "2"
+      },
+      {
+        "id": "196",
+        "parent_id": "13",
+        "name": "恩施",
+        "type": "2"
+      },
+      {
+        "id": "197",
+        "parent_id": "14",
+        "name": "长沙",
+        "type": "2"
+      },
+      {
+        "id": "198",
+        "parent_id": "14",
+        "name": "张家界",
+        "type": "2"
+      },
+      {
+        "id": "199",
+        "parent_id": "14",
+        "name": "常德",
+        "type": "2"
+      },
+      {
+        "id": "200",
+        "parent_id": "14",
+        "name": "郴州",
+        "type": "2"
+      },
+      {
+        "id": "201",
+        "parent_id": "14",
+        "name": "衡阳",
+        "type": "2"
+      },
+      {
+        "id": "202",
+        "parent_id": "14",
+        "name": "怀化",
+        "type": "2"
+      },
+      {
+        "id": "203",
+        "parent_id": "14",
+        "name": "娄底",
+        "type": "2"
+      },
+      {
+        "id": "204",
+        "parent_id": "14",
+        "name": "邵阳",
+        "type": "2"
+      },
+      {
+        "id": "205",
+        "parent_id": "14",
+        "name": "湘潭",
+        "type": "2"
+      },
+      {
+        "id": "206",
+        "parent_id": "14",
+        "name": "湘西",
+        "type": "2"
+      },
+      {
+        "id": "207",
+        "parent_id": "14",
+        "name": "益阳",
+        "type": "2"
+      },
+      {
+        "id": "208",
+        "parent_id": "14",
+        "name": "永州",
+        "type": "2"
+      },
+      {
+        "id": "209",
+        "parent_id": "14",
+        "name": "岳阳",
+        "type": "2"
+      },
+      {
+        "id": "210",
+        "parent_id": "14",
+        "name": "株洲",
+        "type": "2"
+      },
+      {
+        "id": "211",
+        "parent_id": "15",
+        "name": "长春",
+        "type": "2"
+      },
+      {
+        "id": "212",
+        "parent_id": "15",
+        "name": "吉林",
+        "type": "2"
+      },
+      {
+        "id": "213",
+        "parent_id": "15",
+        "name": "白城",
+        "type": "2"
+      },
+      {
+        "id": "214",
+        "parent_id": "15",
+        "name": "白山",
+        "type": "2"
+      },
+      {
+        "id": "215",
+        "parent_id": "15",
+        "name": "辽源",
+        "type": "2"
+      },
+      {
+        "id": "216",
+        "parent_id": "15",
+        "name": "四平",
+        "type": "2"
+      },
+      {
+        "id": "217",
+        "parent_id": "15",
+        "name": "松原",
+        "type": "2"
+      },
+      {
+        "id": "218",
+        "parent_id": "15",
+        "name": "通化",
+        "type": "2"
+      },
+      {
+        "id": "219",
+        "parent_id": "15",
+        "name": "延边",
+        "type": "2"
+      },
+      {
+        "id": "220",
+        "parent_id": "16",
+        "name": "南京",
+        "type": "2"
+      },
+      {
+        "id": "221",
+        "parent_id": "16",
+        "name": "苏州",
+        "type": "2"
+      },
+      {
+        "id": "222",
+        "parent_id": "16",
+        "name": "无锡",
+        "type": "2"
+      },
+      {
+        "id": "223",
+        "parent_id": "16",
+        "name": "常州",
+        "type": "2"
+      },
+      {
+        "id": "224",
+        "parent_id": "16",
+        "name": "淮安",
+        "type": "2"
+      },
+      {
+        "id": "225",
+        "parent_id": "16",
+        "name": "连云港",
+        "type": "2"
+      },
+      {
+        "id": "226",
+        "parent_id": "16",
+        "name": "南通",
+        "type": "2"
+      },
+      {
+        "id": "227",
+        "parent_id": "16",
+        "name": "宿迁",
+        "type": "2"
+      },
+      {
+        "id": "228",
+        "parent_id": "16",
+        "name": "泰州",
+        "type": "2"
+      },
+      {
+        "id": "229",
+        "parent_id": "16",
+        "name": "徐州",
+        "type": "2"
+      },
+      {
+        "id": "230",
+        "parent_id": "16",
+        "name": "盐城",
+        "type": "2"
+      },
+      {
+        "id": "231",
+        "parent_id": "16",
+        "name": "扬州",
+        "type": "2"
+      },
+      {
+        "id": "232",
+        "parent_id": "16",
+        "name": "镇江",
+        "type": "2"
+      },
+      {
+        "id": "233",
+        "parent_id": "17",
+        "name": "南昌",
+        "type": "2"
+      },
+      {
+        "id": "234",
+        "parent_id": "17",
+        "name": "抚州",
+        "type": "2"
+      },
+      {
+        "id": "235",
+        "parent_id": "17",
+        "name": "赣州",
+        "type": "2"
+      },
+      {
+        "id": "236",
+        "parent_id": "17",
+        "name": "吉安",
+        "type": "2"
+      },
+      {
+        "id": "237",
+        "parent_id": "17",
+        "name": "景德镇",
+        "type": "2"
+      },
+      {
+        "id": "238",
+        "parent_id": "17",
+        "name": "九江",
+        "type": "2"
+      },
+      {
+        "id": "239",
+        "parent_id": "17",
+        "name": "萍乡",
+        "type": "2"
+      },
+      {
+        "id": "240",
+        "parent_id": "17",
+        "name": "上饶",
+        "type": "2"
+      },
+      {
+        "id": "241",
+        "parent_id": "17",
+        "name": "新余",
+        "type": "2"
+      },
+      {
+        "id": "242",
+        "parent_id": "17",
+        "name": "宜春",
+        "type": "2"
+      },
+      {
+        "id": "243",
+        "parent_id": "17",
+        "name": "鹰潭",
+        "type": "2"
+      },
+      {
+        "id": "244",
+        "parent_id": "18",
+        "name": "沈阳",
+        "type": "2"
+      },
+      {
+        "id": "245",
+        "parent_id": "18",
+        "name": "大连",
+        "type": "2"
+      },
+      {
+        "id": "246",
+        "parent_id": "18",
+        "name": "鞍山",
+        "type": "2"
+      },
+      {
+        "id": "247",
+        "parent_id": "18",
+        "name": "本溪",
+        "type": "2"
+      },
+      {
+        "id": "248",
+        "parent_id": "18",
+        "name": "朝阳",
+        "type": "2"
+      },
+      {
+        "id": "249",
+        "parent_id": "18",
+        "name": "丹东",
+        "type": "2"
+      },
+      {
+        "id": "250",
+        "parent_id": "18",
+        "name": "抚顺",
+        "type": "2"
+      },
+      {
+        "id": "251",
+        "parent_id": "18",
+        "name": "阜新",
+        "type": "2"
+      },
+      {
+        "id": "252",
+        "parent_id": "18",
+        "name": "葫芦岛",
+        "type": "2"
+      },
+      {
+        "id": "253",
+        "parent_id": "18",
+        "name": "锦州",
+        "type": "2"
+      },
+      {
+        "id": "254",
+        "parent_id": "18",
+        "name": "辽阳",
+        "type": "2"
+      },
+      {
+        "id": "255",
+        "parent_id": "18",
+        "name": "盘锦",
+        "type": "2"
+      },
+      {
+        "id": "256",
+        "parent_id": "18",
+        "name": "铁岭",
+        "type": "2"
+      },
+      {
+        "id": "257",
+        "parent_id": "18",
+        "name": "营口",
+        "type": "2"
+      },
+      {
+        "id": "258",
+        "parent_id": "19",
+        "name": "呼和浩特",
+        "type": "2"
+      },
+      {
+        "id": "259",
+        "parent_id": "19",
+        "name": "阿拉善盟",
+        "type": "2"
+      },
+      {
+        "id": "260",
+        "parent_id": "19",
+        "name": "巴彦淖尔盟",
+        "type": "2"
+      },
+      {
+        "id": "261",
+        "parent_id": "19",
+        "name": "包头",
+        "type": "2"
+      },
+      {
+        "id": "262",
+        "parent_id": "19",
+        "name": "赤峰",
+        "type": "2"
+      },
+      {
+        "id": "263",
+        "parent_id": "19",
+        "name": "鄂尔多斯",
+        "type": "2"
+      },
+      {
+        "id": "264",
+        "parent_id": "19",
+        "name": "呼伦贝尔",
+        "type": "2"
+      },
+      {
+        "id": "265",
+        "parent_id": "19",
+        "name": "通辽",
+        "type": "2"
+      },
+      {
+        "id": "266",
+        "parent_id": "19",
+        "name": "乌海",
+        "type": "2"
+      },
+      {
+        "id": "267",
+        "parent_id": "19",
+        "name": "乌兰察布市",
+        "type": "2"
+      },
+      {
+        "id": "268",
+        "parent_id": "19",
+        "name": "锡林郭勒盟",
+        "type": "2"
+      },
+      {
+        "id": "269",
+        "parent_id": "19",
+        "name": "兴安盟",
+        "type": "2"
+      },
+      {
+        "id": "270",
+        "parent_id": "20",
+        "name": "银川",
+        "type": "2"
+      },
+      {
+        "id": "271",
+        "parent_id": "20",
+        "name": "固原",
+        "type": "2"
+      },
+      {
+        "id": "272",
+        "parent_id": "20",
+        "name": "石嘴山",
+        "type": "2"
+      },
+      {
+        "id": "273",
+        "parent_id": "20",
+        "name": "吴忠",
+        "type": "2"
+      },
+      {
+        "id": "274",
+        "parent_id": "20",
+        "name": "中卫",
+        "type": "2"
+      },
+      {
+        "id": "275",
+        "parent_id": "21",
+        "name": "西宁",
+        "type": "2"
+      },
+      {
+        "id": "276",
+        "parent_id": "21",
+        "name": "果洛",
+        "type": "2"
+      },
+      {
+        "id": "277",
+        "parent_id": "21",
+        "name": "海北",
+        "type": "2"
+      },
+      {
+        "id": "278",
+        "parent_id": "21",
+        "name": "海东",
+        "type": "2"
+      },
+      {
+        "id": "279",
+        "parent_id": "21",
+        "name": "海南",
+        "type": "2"
+      },
+      {
+        "id": "280",
+        "parent_id": "21",
+        "name": "海西",
+        "type": "2"
+      },
+      {
+        "id": "281",
+        "parent_id": "21",
+        "name": "黄南",
+        "type": "2"
+      },
+      {
+        "id": "282",
+        "parent_id": "21",
+        "name": "玉树",
+        "type": "2"
+      },
+      {
+        "id": "283",
+        "parent_id": "22",
+        "name": "济南",
+        "type": "2"
+      },
+      {
+        "id": "284",
+        "parent_id": "22",
+        "name": "青岛",
+        "type": "2"
+      },
+      {
+        "id": "285",
+        "parent_id": "22",
+        "name": "滨州",
+        "type": "2"
+      },
+      {
+        "id": "286",
+        "parent_id": "22",
+        "name": "德州",
+        "type": "2"
+      },
+      {
+        "id": "287",
+        "parent_id": "22",
+        "name": "东营",
+        "type": "2"
+      },
+      {
+        "id": "288",
+        "parent_id": "22",
+        "name": "菏泽",
+        "type": "2"
+      },
+      {
+        "id": "289",
+        "parent_id": "22",
+        "name": "济宁",
+        "type": "2"
+      },
+      {
+        "id": "290",
+        "parent_id": "22",
+        "name": "莱芜",
+        "type": "2"
+      },
+      {
+        "id": "291",
+        "parent_id": "22",
+        "name": "聊城",
+        "type": "2"
+      },
+      {
+        "id": "292",
+        "parent_id": "22",
+        "name": "临沂",
+        "type": "2"
+      },
+      {
+        "id": "293",
+        "parent_id": "22",
+        "name": "日照",
+        "type": "2"
+      },
+      {
+        "id": "294",
+        "parent_id": "22",
+        "name": "泰安",
+        "type": "2"
+      },
+      {
+        "id": "295",
+        "parent_id": "22",
+        "name": "威海",
+        "type": "2"
+      },
+      {
+        "id": "296",
+        "parent_id": "22",
+        "name": "潍坊",
+        "type": "2"
+      },
+      {
+        "id": "297",
+        "parent_id": "22",
+        "name": "烟台",
+        "type": "2"
+      },
+      {
+        "id": "298",
+        "parent_id": "22",
+        "name": "枣庄",
+        "type": "2"
+      },
+      {
+        "id": "299",
+        "parent_id": "22",
+        "name": "淄博",
+        "type": "2"
+      },
+      {
+        "id": "300",
+        "parent_id": "23",
+        "name": "太原",
+        "type": "2"
+      },
+      {
+        "id": "301",
+        "parent_id": "23",
+        "name": "长治",
+        "type": "2"
+      },
+      {
+        "id": "302",
+        "parent_id": "23",
+        "name": "大同",
+        "type": "2"
+      },
+      {
+        "id": "303",
+        "parent_id": "23",
+        "name": "晋城",
+        "type": "2"
+      },
+      {
+        "id": "304",
+        "parent_id": "23",
+        "name": "晋中",
+        "type": "2"
+      },
+      {
+        "id": "305",
+        "parent_id": "23",
+        "name": "临汾",
+        "type": "2"
+      },
+      {
+        "id": "306",
+        "parent_id": "23",
+        "name": "吕梁",
+        "type": "2"
+      },
+      {
+        "id": "307",
+        "parent_id": "23",
+        "name": "朔州",
+        "type": "2"
+      },
+      {
+        "id": "308",
+        "parent_id": "23",
+        "name": "忻州",
+        "type": "2"
+      },
+      {
+        "id": "309",
+        "parent_id": "23",
+        "name": "阳泉",
+        "type": "2"
+      },
+      {
+        "id": "310",
+        "parent_id": "23",
+        "name": "运城",
+        "type": "2"
+      },
+      {
+        "id": "311",
+        "parent_id": "24",
+        "name": "西安",
+        "type": "2"
+      },
+      {
+        "id": "312",
+        "parent_id": "24",
+        "name": "安康",
+        "type": "2"
+      },
+      {
+        "id": "313",
+        "parent_id": "24",
+        "name": "宝鸡",
+        "type": "2"
+      },
+      {
+        "id": "314",
+        "parent_id": "24",
+        "name": "汉中",
+        "type": "2"
+      },
+      {
+        "id": "315",
+        "parent_id": "24",
+        "name": "商洛",
+        "type": "2"
+      },
+      {
+        "id": "316",
+        "parent_id": "24",
+        "name": "铜川",
+        "type": "2"
+      },
+      {
+        "id": "317",
+        "parent_id": "24",
+        "name": "渭南",
+        "type": "2"
+      },
+      {
+        "id": "318",
+        "parent_id": "24",
+        "name": "咸阳",
+        "type": "2"
+      },
+      {
+        "id": "319",
+        "parent_id": "24",
+        "name": "延安",
+        "type": "2"
+      },
+      {
+        "id": "320",
+        "parent_id": "24",
+        "name": "榆林",
+        "type": "2"
+      },
+      {
+        "id": "321",
+        "parent_id": "25",
+        "name": "上海",
+        "type": "2"
+      },
+      {
+        "id": "322",
+        "parent_id": "26",
+        "name": "成都",
+        "type": "2"
+      },
+      {
+        "id": "323",
+        "parent_id": "26",
+        "name": "绵阳",
+        "type": "2"
+      },
+      {
+        "id": "324",
+        "parent_id": "26",
+        "name": "阿坝",
+        "type": "2"
+      },
+      {
+        "id": "325",
+        "parent_id": "26",
+        "name": "巴中",
+        "type": "2"
+      },
+      {
+        "id": "326",
+        "parent_id": "26",
+        "name": "达州",
+        "type": "2"
+      },
+      {
+        "id": "327",
+        "parent_id": "26",
+        "name": "德阳",
+        "type": "2"
+      },
+      {
+        "id": "328",
+        "parent_id": "26",
+        "name": "甘孜",
+        "type": "2"
+      },
+      {
+        "id": "329",
+        "parent_id": "26",
+        "name": "广安",
+        "type": "2"
+      },
+      {
+        "id": "330",
+        "parent_id": "26",
+        "name": "广元",
+        "type": "2"
+      },
+      {
+        "id": "331",
+        "parent_id": "26",
+        "name": "乐山",
+        "type": "2"
+      },
+      {
+        "id": "332",
+        "parent_id": "26",
+        "name": "凉山",
+        "type": "2"
+      },
+      {
+        "id": "333",
+        "parent_id": "26",
+        "name": "眉山",
+        "type": "2"
+      },
+      {
+        "id": "334",
+        "parent_id": "26",
+        "name": "南充",
+        "type": "2"
+      },
+      {
+        "id": "335",
+        "parent_id": "26",
+        "name": "内江",
+        "type": "2"
+      },
+      {
+        "id": "336",
+        "parent_id": "26",
+        "name": "攀枝花",
+        "type": "2"
+      },
+      {
+        "id": "337",
+        "parent_id": "26",
+        "name": "遂宁",
+        "type": "2"
+      },
+      {
+        "id": "338",
+        "parent_id": "26",
+        "name": "雅安",
+        "type": "2"
+      },
+      {
+        "id": "339",
+        "parent_id": "26",
+        "name": "宜宾",
+        "type": "2"
+      },
+      {
+        "id": "340",
+        "parent_id": "26",
+        "name": "资阳",
+        "type": "2"
+      },
+      {
+        "id": "341",
+        "parent_id": "26",
+        "name": "自贡",
+        "type": "2"
+      },
+      {
+        "id": "342",
+        "parent_id": "26",
+        "name": "泸州",
+        "type": "2"
+      },
+      {
+        "id": "343",
+        "parent_id": "27",
+        "name": "天津",
+        "type": "2"
+      },
+      {
+        "id": "344",
+        "parent_id": "28",
+        "name": "拉萨",
+        "type": "2"
+      },
+      {
+        "id": "345",
+        "parent_id": "28",
+        "name": "阿里",
+        "type": "2"
+      },
+      {
+        "id": "346",
+        "parent_id": "28",
+        "name": "昌都",
+        "type": "2"
+      },
+      {
+        "id": "347",
+        "parent_id": "28",
+        "name": "林芝",
+        "type": "2"
+      },
+      {
+        "id": "348",
+        "parent_id": "28",
+        "name": "那曲",
+        "type": "2"
+      },
+      {
+        "id": "349",
+        "parent_id": "28",
+        "name": "日喀则",
+        "type": "2"
+      },
+      {
+        "id": "350",
+        "parent_id": "28",
+        "name": "山南",
+        "type": "2"
+      },
+      {
+        "id": "351",
+        "parent_id": "29",
+        "name": "乌鲁木齐",
+        "type": "2"
+      },
+      {
+        "id": "352",
+        "parent_id": "29",
+        "name": "阿克苏",
+        "type": "2"
+      },
+      {
+        "id": "353",
+        "parent_id": "29",
+        "name": "阿拉尔",
+        "type": "2"
+      },
+      {
+        "id": "354",
+        "parent_id": "29",
+        "name": "巴音郭楞",
+        "type": "2"
+      },
+      {
+        "id": "355",
+        "parent_id": "29",
+        "name": "博尔塔拉",
+        "type": "2"
+      },
+      {
+        "id": "356",
+        "parent_id": "29",
+        "name": "昌吉",
+        "type": "2"
+      },
+      {
+        "id": "357",
+        "parent_id": "29",
+        "name": "哈密",
+        "type": "2"
+      },
+      {
+        "id": "358",
+        "parent_id": "29",
+        "name": "和田",
+        "type": "2"
+      },
+      {
+        "id": "359",
+        "parent_id": "29",
+        "name": "喀什",
+        "type": "2"
+      },
+      {
+        "id": "360",
+        "parent_id": "29",
+        "name": "克拉玛依",
+        "type": "2"
+      },
+      {
+        "id": "361",
+        "parent_id": "29",
+        "name": "克孜勒苏",
+        "type": "2"
+      },
+      {
+        "id": "362",
+        "parent_id": "29",
+        "name": "石河子",
+        "type": "2"
+      },
+      {
+        "id": "363",
+        "parent_id": "29",
+        "name": "图木舒克",
+        "type": "2"
+      },
+      {
+        "id": "364",
+        "parent_id": "29",
+        "name": "吐鲁番",
+        "type": "2"
+      },
+      {
+        "id": "365",
+        "parent_id": "29",
+        "name": "五家渠",
+        "type": "2"
+      },
+      {
+        "id": "366",
+        "parent_id": "29",
+        "name": "伊犁",
+        "type": "2"
+      },
+      {
+        "id": "367",
+        "parent_id": "30",
+        "name": "昆明",
+        "type": "2"
+      },
+      {
+        "id": "368",
+        "parent_id": "30",
+        "name": "怒江",
+        "type": "2"
+      },
+      {
+        "id": "369",
+        "parent_id": "30",
+        "name": "普洱",
+        "type": "2"
+      },
+      {
+        "id": "370",
+        "parent_id": "30",
+        "name": "丽江",
+        "type": "2"
+      },
+      {
+        "id": "371",
+        "parent_id": "30",
+        "name": "保山",
+        "type": "2"
+      },
+      {
+        "id": "372",
+        "parent_id": "30",
+        "name": "楚雄",
+        "type": "2"
+      },
+      {
+        "id": "373",
+        "parent_id": "30",
+        "name": "大理",
+        "type": "2"
+      },
+      {
+        "id": "374",
+        "parent_id": "30",
+        "name": "德宏",
+        "type": "2"
+      },
+      {
+        "id": "375",
+        "parent_id": "30",
+        "name": "迪庆",
+        "type": "2"
+      },
+      {
+        "id": "376",
+        "parent_id": "30",
+        "name": "红河",
+        "type": "2"
+      },
+      {
+        "id": "377",
+        "parent_id": "30",
+        "name": "临沧",
+        "type": "2"
+      },
+      {
+        "id": "378",
+        "parent_id": "30",
+        "name": "曲靖",
+        "type": "2"
+      },
+      {
+        "id": "379",
+        "parent_id": "30",
+        "name": "文山",
+        "type": "2"
+      },
+      {
+        "id": "380",
+        "parent_id": "30",
+        "name": "西双版纳",
+        "type": "2"
+      },
+      {
+        "id": "381",
+        "parent_id": "30",
+        "name": "玉溪",
+        "type": "2"
+      },
+      {
+        "id": "382",
+        "parent_id": "30",
+        "name": "昭通",
+        "type": "2"
+      },
+      {
+        "id": "383",
+        "parent_id": "31",
+        "name": "杭州",
+        "type": "2"
+      },
+      {
+        "id": "384",
+        "parent_id": "31",
+        "name": "湖州",
+        "type": "2"
+      },
+      {
+        "id": "385",
+        "parent_id": "31",
+        "name": "嘉兴",
+        "type": "2"
+      },
+      {
+        "id": "386",
+        "parent_id": "31",
+        "name": "金华",
+        "type": "2"
+      },
+      {
+        "id": "387",
+        "parent_id": "31",
+        "name": "丽水",
+        "type": "2"
+      },
+      {
+        "id": "388",
+        "parent_id": "31",
+        "name": "宁波",
+        "type": "2"
+      },
+      {
+        "id": "389",
+        "parent_id": "31",
+        "name": "绍兴",
+        "type": "2"
+      },
+      {
+        "id": "390",
+        "parent_id": "31",
+        "name": "台州",
+        "type": "2"
+      },
+      {
+        "id": "391",
+        "parent_id": "31",
+        "name": "温州",
+        "type": "2"
+      },
+      {
+        "id": "392",
+        "parent_id": "31",
+        "name": "舟山",
+        "type": "2"
+      },
+      {
+        "id": "393",
+        "parent_id": "31",
+        "name": "衢州",
+        "type": "2"
+      },
+      {
+        "id": "394",
+        "parent_id": "32",
+        "name": "重庆",
+        "type": "2"
+      },
+      {
+        "id": "395",
+        "parent_id": "33",
+        "name": "香港",
+        "type": "2"
+      },
+      {
+        "id": "396",
+        "parent_id": "34",
+        "name": "澳门",
+        "type": "2"
+      },
+      {
+        "id": "397",
+        "parent_id": "35",
+        "name": "台湾",
+        "type": "2"
+      },
+      {
+        "id": "398",
+        "parent_id": "36",
+        "name": "迎江区",
+        "type": "3"
+      },
+      {
+        "id": "399",
+        "parent_id": "36",
+        "name": "大观区",
+        "type": "3"
+      },
+      {
+        "id": "400",
+        "parent_id": "36",
+        "name": "宜秀区",
+        "type": "3"
+      },
+      {
+        "id": "401",
+        "parent_id": "36",
+        "name": "桐城市",
+        "type": "3"
+      },
+      {
+        "id": "402",
+        "parent_id": "36",
+        "name": "怀宁县",
+        "type": "3"
+      },
+      {
+        "id": "403",
+        "parent_id": "36",
+        "name": "枞阳县",
+        "type": "3"
+      },
+      {
+        "id": "404",
+        "parent_id": "36",
+        "name": "潜山县",
+        "type": "3"
+      },
+      {
+        "id": "405",
+        "parent_id": "36",
+        "name": "太湖县",
+        "type": "3"
+      },
+      {
+        "id": "406",
+        "parent_id": "36",
+        "name": "宿松县",
+        "type": "3"
+      },
+      {
+        "id": "407",
+        "parent_id": "36",
+        "name": "望江县",
+        "type": "3"
+      },
+      {
+        "id": "408",
+        "parent_id": "36",
+        "name": "岳西县",
+        "type": "3"
+      },
+      {
+        "id": "409",
+        "parent_id": "37",
+        "name": "中市区",
+        "type": "3"
+      },
+      {
+        "id": "410",
+        "parent_id": "37",
+        "name": "东市区",
+        "type": "3"
+      },
+      {
+        "id": "411",
+        "parent_id": "37",
+        "name": "西市区",
+        "type": "3"
+      },
+      {
+        "id": "412",
+        "parent_id": "37",
+        "name": "郊区",
+        "type": "3"
+      },
+      {
+        "id": "413",
+        "parent_id": "37",
+        "name": "怀远县",
+        "type": "3"
+      },
+      {
+        "id": "414",
+        "parent_id": "37",
+        "name": "五河县",
+        "type": "3"
+      },
+      {
+        "id": "415",
+        "parent_id": "37",
+        "name": "固镇县",
+        "type": "3"
+      },
+      {
+        "id": "416",
+        "parent_id": "38",
+        "name": "居巢区",
+        "type": "3"
+      },
+      {
+        "id": "417",
+        "parent_id": "38",
+        "name": "庐江县",
+        "type": "3"
+      },
+      {
+        "id": "418",
+        "parent_id": "38",
+        "name": "无为县",
+        "type": "3"
+      },
+      {
+        "id": "419",
+        "parent_id": "38",
+        "name": "含山县",
+        "type": "3"
+      },
+      {
+        "id": "420",
+        "parent_id": "38",
+        "name": "和县",
+        "type": "3"
+      },
+      {
+        "id": "421",
+        "parent_id": "39",
+        "name": "贵池区",
+        "type": "3"
+      },
+      {
+        "id": "422",
+        "parent_id": "39",
+        "name": "东至县",
+        "type": "3"
+      },
+      {
+        "id": "423",
+        "parent_id": "39",
+        "name": "石台县",
+        "type": "3"
+      },
+      {
+        "id": "424",
+        "parent_id": "39",
+        "name": "青阳县",
+        "type": "3"
+      },
+      {
+        "id": "425",
+        "parent_id": "40",
+        "name": "琅琊区",
+        "type": "3"
+      },
+      {
+        "id": "426",
+        "parent_id": "40",
+        "name": "南谯区",
+        "type": "3"
+      },
+      {
+        "id": "427",
+        "parent_id": "40",
+        "name": "天长市",
+        "type": "3"
+      },
+      {
+        "id": "428",
+        "parent_id": "40",
+        "name": "明光市",
+        "type": "3"
+      },
+      {
+        "id": "429",
+        "parent_id": "40",
+        "name": "来安县",
+        "type": "3"
+      },
+      {
+        "id": "430",
+        "parent_id": "40",
+        "name": "全椒县",
+        "type": "3"
+      },
+      {
+        "id": "431",
+        "parent_id": "40",
+        "name": "定远县",
+        "type": "3"
+      },
+      {
+        "id": "432",
+        "parent_id": "40",
+        "name": "凤阳县",
+        "type": "3"
+      },
+      {
+        "id": "433",
+        "parent_id": "41",
+        "name": "蚌山区",
+        "type": "3"
+      },
+      {
+        "id": "434",
+        "parent_id": "41",
+        "name": "龙子湖区",
+        "type": "3"
+      },
+      {
+        "id": "435",
+        "parent_id": "41",
+        "name": "禹会区",
+        "type": "3"
+      },
+      {
+        "id": "436",
+        "parent_id": "41",
+        "name": "淮上区",
+        "type": "3"
+      },
+      {
+        "id": "437",
+        "parent_id": "41",
+        "name": "颍州区",
+        "type": "3"
+      },
+      {
+        "id": "438",
+        "parent_id": "41",
+        "name": "颍东区",
+        "type": "3"
+      },
+      {
+        "id": "439",
+        "parent_id": "41",
+        "name": "颍泉区",
+        "type": "3"
+      },
+      {
+        "id": "440",
+        "parent_id": "41",
+        "name": "界首市",
+        "type": "3"
+      },
+      {
+        "id": "441",
+        "parent_id": "41",
+        "name": "临泉县",
+        "type": "3"
+      },
+      {
+        "id": "442",
+        "parent_id": "41",
+        "name": "太和县",
+        "type": "3"
+      },
+      {
+        "id": "443",
+        "parent_id": "41",
+        "name": "阜南县",
+        "type": "3"
+      },
+      {
+        "id": "444",
+        "parent_id": "41",
+        "name": "颖上县",
+        "type": "3"
+      },
+      {
+        "id": "445",
+        "parent_id": "42",
+        "name": "相山区",
+        "type": "3"
+      },
+      {
+        "id": "446",
+        "parent_id": "42",
+        "name": "杜集区",
+        "type": "3"
+      },
+      {
+        "id": "447",
+        "parent_id": "42",
+        "name": "烈山区",
+        "type": "3"
+      },
+      {
+        "id": "448",
+        "parent_id": "42",
+        "name": "濉溪县",
+        "type": "3"
+      },
+      {
+        "id": "449",
+        "parent_id": "43",
+        "name": "田家庵区",
+        "type": "3"
+      },
+      {
+        "id": "450",
+        "parent_id": "43",
+        "name": "大通区",
+        "type": "3"
+      },
+      {
+        "id": "451",
+        "parent_id": "43",
+        "name": "谢家集区",
+        "type": "3"
+      },
+      {
+        "id": "452",
+        "parent_id": "43",
+        "name": "八公山区",
+        "type": "3"
+      },
+      {
+        "id": "453",
+        "parent_id": "43",
+        "name": "潘集区",
+        "type": "3"
+      },
+      {
+        "id": "454",
+        "parent_id": "43",
+        "name": "凤台县",
+        "type": "3"
+      },
+      {
+        "id": "455",
+        "parent_id": "44",
+        "name": "屯溪区",
+        "type": "3"
+      },
+      {
+        "id": "456",
+        "parent_id": "44",
+        "name": "黄山区",
+        "type": "3"
+      },
+      {
+        "id": "457",
+        "parent_id": "44",
+        "name": "徽州区",
+        "type": "3"
+      },
+      {
+        "id": "458",
+        "parent_id": "44",
+        "name": "歙县",
+        "type": "3"
+      },
+      {
+        "id": "459",
+        "parent_id": "44",
+        "name": "休宁县",
+        "type": "3"
+      },
+      {
+        "id": "460",
+        "parent_id": "44",
+        "name": "黟县",
+        "type": "3"
+      },
+      {
+        "id": "461",
+        "parent_id": "44",
+        "name": "祁门县",
+        "type": "3"
+      },
+      {
+        "id": "462",
+        "parent_id": "45",
+        "name": "金安区",
+        "type": "3"
+      },
+      {
+        "id": "463",
+        "parent_id": "45",
+        "name": "裕安区",
+        "type": "3"
+      },
+      {
+        "id": "464",
+        "parent_id": "45",
+        "name": "寿县",
+        "type": "3"
+      },
+      {
+        "id": "465",
+        "parent_id": "45",
+        "name": "霍邱县",
+        "type": "3"
+      },
+      {
+        "id": "466",
+        "parent_id": "45",
+        "name": "舒城县",
+        "type": "3"
+      },
+      {
+        "id": "467",
+        "parent_id": "45",
+        "name": "金寨县",
+        "type": "3"
+      },
+      {
+        "id": "468",
+        "parent_id": "45",
+        "name": "霍山县",
+        "type": "3"
+      },
+      {
+        "id": "469",
+        "parent_id": "46",
+        "name": "雨山区",
+        "type": "3"
+      },
+      {
+        "id": "470",
+        "parent_id": "46",
+        "name": "花山区",
+        "type": "3"
+      },
+      {
+        "id": "471",
+        "parent_id": "46",
+        "name": "金家庄区",
+        "type": "3"
+      },
+      {
+        "id": "472",
+        "parent_id": "46",
+        "name": "当涂县",
+        "type": "3"
+      },
+      {
+        "id": "473",
+        "parent_id": "47",
+        "name": "埇桥区",
+        "type": "3"
+      },
+      {
+        "id": "474",
+        "parent_id": "47",
+        "name": "砀山县",
+        "type": "3"
+      },
+      {
+        "id": "475",
+        "parent_id": "47",
+        "name": "萧县",
+        "type": "3"
+      },
+      {
+        "id": "476",
+        "parent_id": "47",
+        "name": "灵璧县",
+        "type": "3"
+      },
+      {
+        "id": "477",
+        "parent_id": "47",
+        "name": "泗县",
+        "type": "3"
+      },
+      {
+        "id": "478",
+        "parent_id": "48",
+        "name": "铜官山区",
+        "type": "3"
+      },
+      {
+        "id": "479",
+        "parent_id": "48",
+        "name": "狮子山区",
+        "type": "3"
+      },
+      {
+        "id": "480",
+        "parent_id": "48",
+        "name": "郊区",
+        "type": "3"
+      },
+      {
+        "id": "481",
+        "parent_id": "48",
+        "name": "铜陵县",
+        "type": "3"
+      },
+      {
+        "id": "482",
+        "parent_id": "49",
+        "name": "镜湖区",
+        "type": "3"
+      },
+      {
+        "id": "483",
+        "parent_id": "49",
+        "name": "弋江区",
+        "type": "3"
+      },
+      {
+        "id": "484",
+        "parent_id": "49",
+        "name": "鸠江区",
+        "type": "3"
+      },
+      {
+        "id": "485",
+        "parent_id": "49",
+        "name": "三山区",
+        "type": "3"
+      },
+      {
+        "id": "486",
+        "parent_id": "49",
+        "name": "芜湖县",
+        "type": "3"
+      },
+      {
+        "id": "487",
+        "parent_id": "49",
+        "name": "繁昌县",
+        "type": "3"
+      },
+      {
+        "id": "488",
+        "parent_id": "49",
+        "name": "南陵县",
+        "type": "3"
+      },
+      {
+        "id": "489",
+        "parent_id": "50",
+        "name": "宣州区",
+        "type": "3"
+      },
+      {
+        "id": "490",
+        "parent_id": "50",
+        "name": "宁国市",
+        "type": "3"
+      },
+      {
+        "id": "491",
+        "parent_id": "50",
+        "name": "郎溪县",
+        "type": "3"
+      },
+      {
+        "id": "492",
+        "parent_id": "50",
+        "name": "广德县",
+        "type": "3"
+      },
+      {
+        "id": "493",
+        "parent_id": "50",
+        "name": "泾县",
+        "type": "3"
+      },
+      {
+        "id": "494",
+        "parent_id": "50",
+        "name": "绩溪县",
+        "type": "3"
+      },
+      {
+        "id": "495",
+        "parent_id": "50",
+        "name": "旌德县",
+        "type": "3"
+      },
+      {
+        "id": "496",
+        "parent_id": "51",
+        "name": "涡阳县",
+        "type": "3"
+      },
+      {
+        "id": "497",
+        "parent_id": "51",
+        "name": "蒙城县",
+        "type": "3"
+      },
+      {
+        "id": "498",
+        "parent_id": "51",
+        "name": "利辛县",
+        "type": "3"
+      },
+      {
+        "id": "499",
+        "parent_id": "51",
+        "name": "谯城区",
+        "type": "3"
+      },
+      {
+        "id": "500",
+        "parent_id": "52",
+        "name": "东城区",
+        "type": "3"
+      },
+      {
+        "id": "501",
+        "parent_id": "52",
+        "name": "西城区",
+        "type": "3"
+      },
+      {
+        "id": "502",
+        "parent_id": "52",
+        "name": "海淀区",
+        "type": "3"
+      },
+      {
+        "id": "503",
+        "parent_id": "52",
+        "name": "朝阳区",
+        "type": "3"
+      },
+      {
+        "id": "504",
+        "parent_id": "52",
+        "name": "崇文区",
+        "type": "3"
+      },
+      {
+        "id": "505",
+        "parent_id": "52",
+        "name": "宣武区",
+        "type": "3"
+      },
+      {
+        "id": "506",
+        "parent_id": "52",
+        "name": "丰台区",
+        "type": "3"
+      },
+      {
+        "id": "507",
+        "parent_id": "52",
+        "name": "石景山区",
+        "type": "3"
+      },
+      {
+        "id": "508",
+        "parent_id": "52",
+        "name": "房山区",
+        "type": "3"
+      },
+      {
+        "id": "509",
+        "parent_id": "52",
+        "name": "门头沟区",
+        "type": "3"
+      },
+      {
+        "id": "510",
+        "parent_id": "52",
+        "name": "通州区",
+        "type": "3"
+      },
+      {
+        "id": "511",
+        "parent_id": "52",
+        "name": "顺义区",
+        "type": "3"
+      },
+      {
+        "id": "512",
+        "parent_id": "52",
+        "name": "昌平区",
+        "type": "3"
+      },
+      {
+        "id": "513",
+        "parent_id": "52",
+        "name": "怀柔区",
+        "type": "3"
+      },
+      {
+        "id": "514",
+        "parent_id": "52",
+        "name": "平谷区",
+        "type": "3"
+      },
+      {
+        "id": "515",
+        "parent_id": "52",
+        "name": "大兴区",
+        "type": "3"
+      },
+      {
+        "id": "518",
+        "parent_id": "53",
+        "name": "鼓楼区",
+        "type": "3"
+      },
+      {
+        "id": "519",
+        "parent_id": "53",
+        "name": "台江区",
+        "type": "3"
+      },
+      {
+        "id": "520",
+        "parent_id": "53",
+        "name": "仓山区",
+        "type": "3"
+      },
+      {
+        "id": "521",
+        "parent_id": "53",
+        "name": "马尾区",
+        "type": "3"
+      },
+      {
+        "id": "522",
+        "parent_id": "53",
+        "name": "晋安区",
+        "type": "3"
+      },
+      {
+        "id": "523",
+        "parent_id": "53",
+        "name": "福清市",
+        "type": "3"
+      },
+      {
+        "id": "524",
+        "parent_id": "53",
+        "name": "长乐市",
+        "type": "3"
+      },
+      {
+        "id": "525",
+        "parent_id": "53",
+        "name": "闽侯县",
+        "type": "3"
+      },
+      {
+        "id": "526",
+        "parent_id": "53",
+        "name": "连江县",
+        "type": "3"
+      },
+      {
+        "id": "527",
+        "parent_id": "53",
+        "name": "罗源县",
+        "type": "3"
+      },
+      {
+        "id": "528",
+        "parent_id": "53",
+        "name": "闽清县",
+        "type": "3"
+      },
+      {
+        "id": "529",
+        "parent_id": "53",
+        "name": "永泰县",
+        "type": "3"
+      },
+      {
+        "id": "530",
+        "parent_id": "53",
+        "name": "平潭县",
+        "type": "3"
+      },
+      {
+        "id": "531",
+        "parent_id": "54",
+        "name": "新罗区",
+        "type": "3"
+      },
+      {
+        "id": "532",
+        "parent_id": "54",
+        "name": "漳平市",
+        "type": "3"
+      },
+      {
+        "id": "533",
+        "parent_id": "54",
+        "name": "长汀县",
+        "type": "3"
+      },
+      {
+        "id": "534",
+        "parent_id": "54",
+        "name": "永定县",
+        "type": "3"
+      },
+      {
+        "id": "535",
+        "parent_id": "54",
+        "name": "上杭县",
+        "type": "3"
+      },
+      {
+        "id": "536",
+        "parent_id": "54",
+        "name": "武平县",
+        "type": "3"
+      },
+      {
+        "id": "537",
+        "parent_id": "54",
+        "name": "连城县",
+        "type": "3"
+      },
+      {
+        "id": "538",
+        "parent_id": "55",
+        "name": "延平区",
+        "type": "3"
+      },
+      {
+        "id": "539",
+        "parent_id": "55",
+        "name": "邵武市",
+        "type": "3"
+      },
+      {
+        "id": "540",
+        "parent_id": "55",
+        "name": "武夷山市",
+        "type": "3"
+      },
+      {
+        "id": "541",
+        "parent_id": "55",
+        "name": "建瓯市",
+        "type": "3"
+      },
+      {
+        "id": "542",
+        "parent_id": "55",
+        "name": "建阳市",
+        "type": "3"
+      },
+      {
+        "id": "543",
+        "parent_id": "55",
+        "name": "顺昌县",
+        "type": "3"
+      },
+      {
+        "id": "544",
+        "parent_id": "55",
+        "name": "浦城县",
+        "type": "3"
+      },
+      {
+        "id": "545",
+        "parent_id": "55",
+        "name": "光泽县",
+        "type": "3"
+      },
+      {
+        "id": "546",
+        "parent_id": "55",
+        "name": "松溪县",
+        "type": "3"
+      },
+      {
+        "id": "547",
+        "parent_id": "55",
+        "name": "政和县",
+        "type": "3"
+      },
+      {
+        "id": "548",
+        "parent_id": "56",
+        "name": "蕉城区",
+        "type": "3"
+      },
+      {
+        "id": "549",
+        "parent_id": "56",
+        "name": "福安市",
+        "type": "3"
+      },
+      {
+        "id": "550",
+        "parent_id": "56",
+        "name": "福鼎市",
+        "type": "3"
+      },
+      {
+        "id": "551",
+        "parent_id": "56",
+        "name": "霞浦县",
+        "type": "3"
+      },
+      {
+        "id": "552",
+        "parent_id": "56",
+        "name": "古田县",
+        "type": "3"
+      },
+      {
+        "id": "553",
+        "parent_id": "56",
+        "name": "屏南县",
+        "type": "3"
+      },
+      {
+        "id": "554",
+        "parent_id": "56",
+        "name": "寿宁县",
+        "type": "3"
+      },
+      {
+        "id": "555",
+        "parent_id": "56",
+        "name": "周宁县",
+        "type": "3"
+      },
+      {
+        "id": "556",
+        "parent_id": "56",
+        "name": "柘荣县",
+        "type": "3"
+      },
+      {
+        "id": "557",
+        "parent_id": "57",
+        "name": "城厢区",
+        "type": "3"
+      },
+      {
+        "id": "558",
+        "parent_id": "57",
+        "name": "涵江区",
+        "type": "3"
+      },
+      {
+        "id": "559",
+        "parent_id": "57",
+        "name": "荔城区",
+        "type": "3"
+      },
+      {
+        "id": "560",
+        "parent_id": "57",
+        "name": "秀屿区",
+        "type": "3"
+      },
+      {
+        "id": "561",
+        "parent_id": "57",
+        "name": "仙游县",
+        "type": "3"
+      },
+      {
+        "id": "562",
+        "parent_id": "58",
+        "name": "鲤城区",
+        "type": "3"
+      },
+      {
+        "id": "563",
+        "parent_id": "58",
+        "name": "丰泽区",
+        "type": "3"
+      },
+      {
+        "id": "564",
+        "parent_id": "58",
+        "name": "洛江区",
+        "type": "3"
+      },
+      {
+        "id": "565",
+        "parent_id": "58",
+        "name": "清濛开发区",
+        "type": "3"
+      },
+      {
+        "id": "566",
+        "parent_id": "58",
+        "name": "泉港区",
+        "type": "3"
+      },
+      {
+        "id": "567",
+        "parent_id": "58",
+        "name": "石狮市",
+        "type": "3"
+      },
+      {
+        "id": "568",
+        "parent_id": "58",
+        "name": "晋江市",
+        "type": "3"
+      },
+      {
+        "id": "569",
+        "parent_id": "58",
+        "name": "南安市",
+        "type": "3"
+      },
+      {
+        "id": "570",
+        "parent_id": "58",
+        "name": "惠安县",
+        "type": "3"
+      },
+      {
+        "id": "571",
+        "parent_id": "58",
+        "name": "安溪县",
+        "type": "3"
+      },
+      {
+        "id": "572",
+        "parent_id": "58",
+        "name": "永春县",
+        "type": "3"
+      },
+      {
+        "id": "573",
+        "parent_id": "58",
+        "name": "德化县",
+        "type": "3"
+      },
+      {
+        "id": "574",
+        "parent_id": "58",
+        "name": "金门县",
+        "type": "3"
+      },
+      {
+        "id": "575",
+        "parent_id": "59",
+        "name": "梅列区",
+        "type": "3"
+      },
+      {
+        "id": "576",
+        "parent_id": "59",
+        "name": "三元区",
+        "type": "3"
+      },
+      {
+        "id": "577",
+        "parent_id": "59",
+        "name": "永安市",
+        "type": "3"
+      },
+      {
+        "id": "578",
+        "parent_id": "59",
+        "name": "明溪县",
+        "type": "3"
+      },
+      {
+        "id": "579",
+        "parent_id": "59",
+        "name": "清流县",
+        "type": "3"
+      },
+      {
+        "id": "580",
+        "parent_id": "59",
+        "name": "宁化县",
+        "type": "3"
+      },
+      {
+        "id": "581",
+        "parent_id": "59",
+        "name": "大田县",
+        "type": "3"
+      },
+      {
+        "id": "582",
+        "parent_id": "59",
+        "name": "尤溪县",
+        "type": "3"
+      },
+      {
+        "id": "583",
+        "parent_id": "59",
+        "name": "沙县",
+        "type": "3"
+      },
+      {
+        "id": "584",
+        "parent_id": "59",
+        "name": "将乐县",
+        "type": "3"
+      },
+      {
+        "id": "585",
+        "parent_id": "59",
+        "name": "泰宁县",
+        "type": "3"
+      },
+      {
+        "id": "586",
+        "parent_id": "59",
+        "name": "建宁县",
+        "type": "3"
+      },
+      {
+        "id": "587",
+        "parent_id": "60",
+        "name": "思明区",
+        "type": "3"
+      },
+      {
+        "id": "588",
+        "parent_id": "60",
+        "name": "海沧区",
+        "type": "3"
+      },
+      {
+        "id": "589",
+        "parent_id": "60",
+        "name": "湖里区",
+        "type": "3"
+      },
+      {
+        "id": "590",
+        "parent_id": "60",
+        "name": "集美区",
+        "type": "3"
+      },
+      {
+        "id": "591",
+        "parent_id": "60",
+        "name": "同安区",
+        "type": "3"
+      },
+      {
+        "id": "592",
+        "parent_id": "60",
+        "name": "翔安区",
+        "type": "3"
+      },
+      {
+        "id": "593",
+        "parent_id": "61",
+        "name": "芗城区",
+        "type": "3"
+      },
+      {
+        "id": "594",
+        "parent_id": "61",
+        "name": "龙文区",
+        "type": "3"
+      },
+      {
+        "id": "595",
+        "parent_id": "61",
+        "name": "龙海市",
+        "type": "3"
+      },
+      {
+        "id": "596",
+        "parent_id": "61",
+        "name": "云霄县",
+        "type": "3"
+      },
+      {
+        "id": "597",
+        "parent_id": "61",
+        "name": "漳浦县",
+        "type": "3"
+      },
+      {
+        "id": "598",
+        "parent_id": "61",
+        "name": "诏安县",
+        "type": "3"
+      },
+      {
+        "id": "599",
+        "parent_id": "61",
+        "name": "长泰县",
+        "type": "3"
+      },
+      {
+        "id": "600",
+        "parent_id": "61",
+        "name": "东山县",
+        "type": "3"
+      },
+      {
+        "id": "601",
+        "parent_id": "61",
+        "name": "南靖县",
+        "type": "3"
+      },
+      {
+        "id": "602",
+        "parent_id": "61",
+        "name": "平和县",
+        "type": "3"
+      },
+      {
+        "id": "603",
+        "parent_id": "61",
+        "name": "华安县",
+        "type": "3"
+      },
+      {
+        "id": "604",
+        "parent_id": "62",
+        "name": "皋兰县",
+        "type": "3"
+      },
+      {
+        "id": "605",
+        "parent_id": "62",
+        "name": "城关区",
+        "type": "3"
+      },
+      {
+        "id": "606",
+        "parent_id": "62",
+        "name": "七里河区",
+        "type": "3"
+      },
+      {
+        "id": "607",
+        "parent_id": "62",
+        "name": "西固区",
+        "type": "3"
+      },
+      {
+        "id": "608",
+        "parent_id": "62",
+        "name": "安宁区",
+        "type": "3"
+      },
+      {
+        "id": "609",
+        "parent_id": "62",
+        "name": "红古区",
+        "type": "3"
+      },
+      {
+        "id": "610",
+        "parent_id": "62",
+        "name": "永登县",
+        "type": "3"
+      },
+      {
+        "id": "611",
+        "parent_id": "62",
+        "name": "榆中县",
+        "type": "3"
+      },
+      {
+        "id": "612",
+        "parent_id": "63",
+        "name": "白银区",
+        "type": "3"
+      },
+      {
+        "id": "613",
+        "parent_id": "63",
+        "name": "平川区",
+        "type": "3"
+      },
+      {
+        "id": "614",
+        "parent_id": "63",
+        "name": "会宁县",
+        "type": "3"
+      },
+      {
+        "id": "615",
+        "parent_id": "63",
+        "name": "景泰县",
+        "type": "3"
+      },
+      {
+        "id": "616",
+        "parent_id": "63",
+        "name": "靖远县",
+        "type": "3"
+      },
+      {
+        "id": "617",
+        "parent_id": "64",
+        "name": "临洮县",
+        "type": "3"
+      },
+      {
+        "id": "618",
+        "parent_id": "64",
+        "name": "陇西县",
+        "type": "3"
+      },
+      {
+        "id": "619",
+        "parent_id": "64",
+        "name": "通渭县",
+        "type": "3"
+      },
+      {
+        "id": "620",
+        "parent_id": "64",
+        "name": "渭源县",
+        "type": "3"
+      },
+      {
+        "id": "621",
+        "parent_id": "64",
+        "name": "漳县",
+        "type": "3"
+      },
+      {
+        "id": "622",
+        "parent_id": "64",
+        "name": "岷县",
+        "type": "3"
+      },
+      {
+        "id": "623",
+        "parent_id": "64",
+        "name": "安定区",
+        "type": "3"
+      },
+      {
+        "id": "624",
+        "parent_id": "64",
+        "name": "安定区",
+        "type": "3"
+      },
+      {
+        "id": "625",
+        "parent_id": "65",
+        "name": "合作市",
+        "type": "3"
+      },
+      {
+        "id": "626",
+        "parent_id": "65",
+        "name": "临潭县",
+        "type": "3"
+      },
+      {
+        "id": "627",
+        "parent_id": "65",
+        "name": "卓尼县",
+        "type": "3"
+      },
+      {
+        "id": "628",
+        "parent_id": "65",
+        "name": "舟曲县",
+        "type": "3"
+      },
+      {
+        "id": "629",
+        "parent_id": "65",
+        "name": "迭部县",
+        "type": "3"
+      },
+      {
+        "id": "630",
+        "parent_id": "65",
+        "name": "玛曲县",
+        "type": "3"
+      },
+      {
+        "id": "631",
+        "parent_id": "65",
+        "name": "碌曲县",
+        "type": "3"
+      },
+      {
+        "id": "632",
+        "parent_id": "65",
+        "name": "夏河县",
+        "type": "3"
+      },
+      {
+        "id": "633",
+        "parent_id": "66",
+        "name": "嘉峪关市",
+        "type": "3"
+      },
+      {
+        "id": "634",
+        "parent_id": "67",
+        "name": "金川区",
+        "type": "3"
+      },
+      {
+        "id": "635",
+        "parent_id": "67",
+        "name": "永昌县",
+        "type": "3"
+      },
+      {
+        "id": "636",
+        "parent_id": "68",
+        "name": "肃州区",
+        "type": "3"
+      },
+      {
+        "id": "637",
+        "parent_id": "68",
+        "name": "玉门市",
+        "type": "3"
+      },
+      {
+        "id": "638",
+        "parent_id": "68",
+        "name": "敦煌市",
+        "type": "3"
+      },
+      {
+        "id": "639",
+        "parent_id": "68",
+        "name": "金塔县",
+        "type": "3"
+      },
+      {
+        "id": "640",
+        "parent_id": "68",
+        "name": "瓜州县",
+        "type": "3"
+      },
+      {
+        "id": "641",
+        "parent_id": "68",
+        "name": "肃北",
+        "type": "3"
+      },
+      {
+        "id": "642",
+        "parent_id": "68",
+        "name": "阿克塞",
+        "type": "3"
+      },
+      {
+        "id": "643",
+        "parent_id": "69",
+        "name": "临夏市",
+        "type": "3"
+      },
+      {
+        "id": "644",
+        "parent_id": "69",
+        "name": "临夏县",
+        "type": "3"
+      },
+      {
+        "id": "645",
+        "parent_id": "69",
+        "name": "康乐县",
+        "type": "3"
+      },
+      {
+        "id": "646",
+        "parent_id": "69",
+        "name": "永靖县",
+        "type": "3"
+      },
+      {
+        "id": "647",
+        "parent_id": "69",
+        "name": "广河县",
+        "type": "3"
+      },
+      {
+        "id": "648",
+        "parent_id": "69",
+        "name": "和政县",
+        "type": "3"
+      },
+      {
+        "id": "649",
+        "parent_id": "69",
+        "name": "东乡族自治县",
+        "type": "3"
+      },
+      {
+        "id": "650",
+        "parent_id": "69",
+        "name": "积石山",
+        "type": "3"
+      },
+      {
+        "id": "651",
+        "parent_id": "70",
+        "name": "成县",
+        "type": "3"
+      },
+      {
+        "id": "652",
+        "parent_id": "70",
+        "name": "徽县",
+        "type": "3"
+      },
+      {
+        "id": "653",
+        "parent_id": "70",
+        "name": "康县",
+        "type": "3"
+      },
+      {
+        "id": "654",
+        "parent_id": "70",
+        "name": "礼县",
+        "type": "3"
+      },
+      {
+        "id": "655",
+        "parent_id": "70",
+        "name": "两当县",
+        "type": "3"
+      },
+      {
+        "id": "656",
+        "parent_id": "70",
+        "name": "文县",
+        "type": "3"
+      },
+      {
+        "id": "657",
+        "parent_id": "70",
+        "name": "西和县",
+        "type": "3"
+      },
+      {
+        "id": "658",
+        "parent_id": "70",
+        "name": "宕昌县",
+        "type": "3"
+      },
+      {
+        "id": "659",
+        "parent_id": "70",
+        "name": "武都区",
+        "type": "3"
+      },
+      {
+        "id": "660",
+        "parent_id": "71",
+        "name": "崇信县",
+        "type": "3"
+      },
+      {
+        "id": "661",
+        "parent_id": "71",
+        "name": "华亭县",
+        "type": "3"
+      },
+      {
+        "id": "662",
+        "parent_id": "71",
+        "name": "静宁县",
+        "type": "3"
+      },
+      {
+        "id": "663",
+        "parent_id": "71",
+        "name": "灵台县",
+        "type": "3"
+      },
+      {
+        "id": "664",
+        "parent_id": "71",
+        "name": "崆峒区",
+        "type": "3"
+      },
+      {
+        "id": "665",
+        "parent_id": "71",
+        "name": "庄浪县",
+        "type": "3"
+      },
+      {
+        "id": "666",
+        "parent_id": "71",
+        "name": "泾川县",
+        "type": "3"
+      },
+      {
+        "id": "667",
+        "parent_id": "72",
+        "name": "合水县",
+        "type": "3"
+      },
+      {
+        "id": "668",
+        "parent_id": "72",
+        "name": "华池县",
+        "type": "3"
+      },
+      {
+        "id": "669",
+        "parent_id": "72",
+        "name": "环县",
+        "type": "3"
+      },
+      {
+        "id": "670",
+        "parent_id": "72",
+        "name": "宁县",
+        "type": "3"
+      },
+      {
+        "id": "671",
+        "parent_id": "72",
+        "name": "庆城县",
+        "type": "3"
+      },
+      {
+        "id": "672",
+        "parent_id": "72",
+        "name": "西峰区",
+        "type": "3"
+      },
+      {
+        "id": "673",
+        "parent_id": "72",
+        "name": "镇原县",
+        "type": "3"
+      },
+      {
+        "id": "674",
+        "parent_id": "72",
+        "name": "正宁县",
+        "type": "3"
+      },
+      {
+        "id": "675",
+        "parent_id": "73",
+        "name": "甘谷县",
+        "type": "3"
+      },
+      {
+        "id": "676",
+        "parent_id": "73",
+        "name": "秦安县",
+        "type": "3"
+      },
+      {
+        "id": "677",
+        "parent_id": "73",
+        "name": "清水县",
+        "type": "3"
+      },
+      {
+        "id": "678",
+        "parent_id": "73",
+        "name": "秦州区",
+        "type": "3"
+      },
+      {
+        "id": "679",
+        "parent_id": "73",
+        "name": "麦积区",
+        "type": "3"
+      },
+      {
+        "id": "680",
+        "parent_id": "73",
+        "name": "武山县",
+        "type": "3"
+      },
+      {
+        "id": "681",
+        "parent_id": "73",
+        "name": "张家川",
+        "type": "3"
+      },
+      {
+        "id": "682",
+        "parent_id": "74",
+        "name": "古浪县",
+        "type": "3"
+      },
+      {
+        "id": "683",
+        "parent_id": "74",
+        "name": "民勤县",
+        "type": "3"
+      },
+      {
+        "id": "684",
+        "parent_id": "74",
+        "name": "天祝",
+        "type": "3"
+      },
+      {
+        "id": "685",
+        "parent_id": "74",
+        "name": "凉州区",
+        "type": "3"
+      },
+      {
+        "id": "686",
+        "parent_id": "75",
+        "name": "高台县",
+        "type": "3"
+      },
+      {
+        "id": "687",
+        "parent_id": "75",
+        "name": "临泽县",
+        "type": "3"
+      },
+      {
+        "id": "688",
+        "parent_id": "75",
+        "name": "民乐县",
+        "type": "3"
+      },
+      {
+        "id": "689",
+        "parent_id": "75",
+        "name": "山丹县",
+        "type": "3"
+      },
+      {
+        "id": "690",
+        "parent_id": "75",
+        "name": "肃南",
+        "type": "3"
+      },
+      {
+        "id": "691",
+        "parent_id": "75",
+        "name": "甘州区",
+        "type": "3"
+      },
+      {
+        "id": "692",
+        "parent_id": "76",
+        "name": "从化市",
+        "type": "3"
+      },
+      {
+        "id": "693",
+        "parent_id": "76",
+        "name": "天河区",
+        "type": "3"
+      },
+      {
+        "id": "694",
+        "parent_id": "76",
+        "name": "东山区",
+        "type": "3"
+      },
+      {
+        "id": "695",
+        "parent_id": "76",
+        "name": "白云区",
+        "type": "3"
+      },
+      {
+        "id": "696",
+        "parent_id": "76",
+        "name": "海珠区",
+        "type": "3"
+      },
+      {
+        "id": "697",
+        "parent_id": "76",
+        "name": "荔湾区",
+        "type": "3"
+      },
+      {
+        "id": "698",
+        "parent_id": "76",
+        "name": "越秀区",
+        "type": "3"
+      },
+      {
+        "id": "699",
+        "parent_id": "76",
+        "name": "黄埔区",
+        "type": "3"
+      },
+      {
+        "id": "700",
+        "parent_id": "76",
+        "name": "番禺区",
+        "type": "3"
+      },
+      {
+        "id": "701",
+        "parent_id": "76",
+        "name": "花都区",
+        "type": "3"
+      },
+      {
+        "id": "702",
+        "parent_id": "76",
+        "name": "增城区",
+        "type": "3"
+      },
+      {
+        "id": "703",
+        "parent_id": "76",
+        "name": "从化区",
+        "type": "3"
+      },
+      {
+        "id": "704",
+        "parent_id": "76",
+        "name": "市郊",
+        "type": "3"
+      },
+      {
+        "id": "705",
+        "parent_id": "77",
+        "name": "福田区",
+        "type": "3"
+      },
+      {
+        "id": "706",
+        "parent_id": "77",
+        "name": "罗湖区",
+        "type": "3"
+      },
+      {
+        "id": "707",
+        "parent_id": "77",
+        "name": "南山区",
+        "type": "3"
+      },
+      {
+        "id": "708",
+        "parent_id": "77",
+        "name": "宝安区",
+        "type": "3"
+      },
+      {
+        "id": "709",
+        "parent_id": "77",
+        "name": "龙岗区",
+        "type": "3"
+      },
+      {
+        "id": "710",
+        "parent_id": "77",
+        "name": "盐田区",
+        "type": "3"
+      },
+      {
+        "id": "711",
+        "parent_id": "78",
+        "name": "湘桥区",
+        "type": "3"
+      },
+      {
+        "id": "712",
+        "parent_id": "78",
+        "name": "潮安县",
+        "type": "3"
+      },
+      {
+        "id": "713",
+        "parent_id": "78",
+        "name": "饶平县",
+        "type": "3"
+      },
+      {
+        "id": "714",
+        "parent_id": "79",
+        "name": "南城区",
+        "type": "3"
+      },
+      {
+        "id": "715",
+        "parent_id": "79",
+        "name": "东城区",
+        "type": "3"
+      },
+      {
+        "id": "716",
+        "parent_id": "79",
+        "name": "万江区",
+        "type": "3"
+      },
+      {
+        "id": "717",
+        "parent_id": "79",
+        "name": "莞城区",
+        "type": "3"
+      },
+      {
+        "id": "718",
+        "parent_id": "79",
+        "name": "石龙镇",
+        "type": "3"
+      },
+      {
+        "id": "719",
+        "parent_id": "79",
+        "name": "虎门镇",
+        "type": "3"
+      },
+      {
+        "id": "720",
+        "parent_id": "79",
+        "name": "麻涌镇",
+        "type": "3"
+      },
+      {
+        "id": "721",
+        "parent_id": "79",
+        "name": "道滘镇",
+        "type": "3"
+      },
+      {
+        "id": "722",
+        "parent_id": "79",
+        "name": "石碣镇",
+        "type": "3"
+      },
+      {
+        "id": "723",
+        "parent_id": "79",
+        "name": "沙田镇",
+        "type": "3"
+      },
+      {
+        "id": "724",
+        "parent_id": "79",
+        "name": "望牛墩镇",
+        "type": "3"
+      },
+      {
+        "id": "725",
+        "parent_id": "79",
+        "name": "洪梅镇",
+        "type": "3"
+      },
+      {
+        "id": "726",
+        "parent_id": "79",
+        "name": "茶山镇",
+        "type": "3"
+      },
+      {
+        "id": "727",
+        "parent_id": "79",
+        "name": "寮步镇",
+        "type": "3"
+      },
+      {
+        "id": "728",
+        "parent_id": "79",
+        "name": "大岭山镇",
+        "type": "3"
+      },
+      {
+        "id": "729",
+        "parent_id": "79",
+        "name": "大朗镇",
+        "type": "3"
+      },
+      {
+        "id": "730",
+        "parent_id": "79",
+        "name": "黄江镇",
+        "type": "3"
+      },
+      {
+        "id": "731",
+        "parent_id": "79",
+        "name": "樟木头",
+        "type": "3"
+      },
+      {
+        "id": "732",
+        "parent_id": "79",
+        "name": "凤岗镇",
+        "type": "3"
+      },
+      {
+        "id": "733",
+        "parent_id": "79",
+        "name": "塘厦镇",
+        "type": "3"
+      },
+      {
+        "id": "734",
+        "parent_id": "79",
+        "name": "谢岗镇",
+        "type": "3"
+      },
+      {
+        "id": "735",
+        "parent_id": "79",
+        "name": "厚街镇",
+        "type": "3"
+      },
+      {
+        "id": "736",
+        "parent_id": "79",
+        "name": "清溪镇",
+        "type": "3"
+      },
+      {
+        "id": "737",
+        "parent_id": "79",
+        "name": "常平镇",
+        "type": "3"
+      },
+      {
+        "id": "738",
+        "parent_id": "79",
+        "name": "桥头镇",
+        "type": "3"
+      },
+      {
+        "id": "739",
+        "parent_id": "79",
+        "name": "横沥镇",
+        "type": "3"
+      },
+      {
+        "id": "740",
+        "parent_id": "79",
+        "name": "东坑镇",
+        "type": "3"
+      },
+      {
+        "id": "741",
+        "parent_id": "79",
+        "name": "企石镇",
+        "type": "3"
+      },
+      {
+        "id": "742",
+        "parent_id": "79",
+        "name": "石排镇",
+        "type": "3"
+      },
+      {
+        "id": "743",
+        "parent_id": "79",
+        "name": "长安镇",
+        "type": "3"
+      },
+      {
+        "id": "744",
+        "parent_id": "79",
+        "name": "中堂镇",
+        "type": "3"
+      },
+      {
+        "id": "745",
+        "parent_id": "79",
+        "name": "高埗镇",
+        "type": "3"
+      },
+      {
+        "id": "746",
+        "parent_id": "80",
+        "name": "禅城区",
+        "type": "3"
+      },
+      {
+        "id": "747",
+        "parent_id": "80",
+        "name": "南海区",
+        "type": "3"
+      },
+      {
+        "id": "748",
+        "parent_id": "80",
+        "name": "顺德区",
+        "type": "3"
+      },
+      {
+        "id": "749",
+        "parent_id": "80",
+        "name": "三水区",
+        "type": "3"
+      },
+      {
+        "id": "750",
+        "parent_id": "80",
+        "name": "高明区",
+        "type": "3"
+      },
+      {
+        "id": "751",
+        "parent_id": "81",
+        "name": "东源县",
+        "type": "3"
+      },
+      {
+        "id": "752",
+        "parent_id": "81",
+        "name": "和平县",
+        "type": "3"
+      },
+      {
+        "id": "753",
+        "parent_id": "81",
+        "name": "源城区",
+        "type": "3"
+      },
+      {
+        "id": "754",
+        "parent_id": "81",
+        "name": "连平县",
+        "type": "3"
+      },
+      {
+        "id": "755",
+        "parent_id": "81",
+        "name": "龙川县",
+        "type": "3"
+      },
+      {
+        "id": "756",
+        "parent_id": "81",
+        "name": "紫金县",
+        "type": "3"
+      },
+      {
+        "id": "757",
+        "parent_id": "82",
+        "name": "惠阳区",
+        "type": "3"
+      },
+      {
+        "id": "758",
+        "parent_id": "82",
+        "name": "惠城区",
+        "type": "3"
+      },
+      {
+        "id": "759",
+        "parent_id": "82",
+        "name": "大亚湾",
+        "type": "3"
+      },
+      {
+        "id": "760",
+        "parent_id": "82",
+        "name": "博罗县",
+        "type": "3"
+      },
+      {
+        "id": "761",
+        "parent_id": "82",
+        "name": "惠东县",
+        "type": "3"
+      },
+      {
+        "id": "762",
+        "parent_id": "82",
+        "name": "龙门县",
+        "type": "3"
+      },
+      {
+        "id": "763",
+        "parent_id": "83",
+        "name": "江海区",
+        "type": "3"
+      },
+      {
+        "id": "764",
+        "parent_id": "83",
+        "name": "蓬江区",
+        "type": "3"
+      },
+      {
+        "id": "765",
+        "parent_id": "83",
+        "name": "新会区",
+        "type": "3"
+      },
+      {
+        "id": "766",
+        "parent_id": "83",
+        "name": "台山市",
+        "type": "3"
+      },
+      {
+        "id": "767",
+        "parent_id": "83",
+        "name": "开平市",
+        "type": "3"
+      },
+      {
+        "id": "768",
+        "parent_id": "83",
+        "name": "鹤山市",
+        "type": "3"
+      },
+      {
+        "id": "769",
+        "parent_id": "83",
+        "name": "恩平市",
+        "type": "3"
+      },
+      {
+        "id": "770",
+        "parent_id": "84",
+        "name": "榕城区",
+        "type": "3"
+      },
+      {
+        "id": "771",
+        "parent_id": "84",
+        "name": "普宁市",
+        "type": "3"
+      },
+      {
+        "id": "772",
+        "parent_id": "84",
+        "name": "揭东县",
+        "type": "3"
+      },
+      {
+        "id": "773",
+        "parent_id": "84",
+        "name": "揭西县",
+        "type": "3"
+      },
+      {
+        "id": "774",
+        "parent_id": "84",
+        "name": "惠来县",
+        "type": "3"
+      },
+      {
+        "id": "775",
+        "parent_id": "85",
+        "name": "茂南区",
+        "type": "3"
+      },
+      {
+        "id": "776",
+        "parent_id": "85",
+        "name": "茂港区",
+        "type": "3"
+      },
+      {
+        "id": "777",
+        "parent_id": "85",
+        "name": "高州市",
+        "type": "3"
+      },
+      {
+        "id": "778",
+        "parent_id": "85",
+        "name": "化州市",
+        "type": "3"
+      },
+      {
+        "id": "779",
+        "parent_id": "85",
+        "name": "信宜市",
+        "type": "3"
+      },
+      {
+        "id": "780",
+        "parent_id": "85",
+        "name": "电白县",
+        "type": "3"
+      },
+      {
+        "id": "781",
+        "parent_id": "86",
+        "name": "梅县",
+        "type": "3"
+      },
+      {
+        "id": "782",
+        "parent_id": "86",
+        "name": "梅江区",
+        "type": "3"
+      },
+      {
+        "id": "783",
+        "parent_id": "86",
+        "name": "兴宁市",
+        "type": "3"
+      },
+      {
+        "id": "784",
+        "parent_id": "86",
+        "name": "大埔县",
+        "type": "3"
+      },
+      {
+        "id": "785",
+        "parent_id": "86",
+        "name": "丰顺县",
+        "type": "3"
+      },
+      {
+        "id": "786",
+        "parent_id": "86",
+        "name": "五华县",
+        "type": "3"
+      },
+      {
+        "id": "787",
+        "parent_id": "86",
+        "name": "平远县",
+        "type": "3"
+      },
+      {
+        "id": "788",
+        "parent_id": "86",
+        "name": "蕉岭县",
+        "type": "3"
+      },
+      {
+        "id": "789",
+        "parent_id": "87",
+        "name": "清城区",
+        "type": "3"
+      },
+      {
+        "id": "790",
+        "parent_id": "87",
+        "name": "英德市",
+        "type": "3"
+      },
+      {
+        "id": "791",
+        "parent_id": "87",
+        "name": "连州市",
+        "type": "3"
+      },
+      {
+        "id": "792",
+        "parent_id": "87",
+        "name": "佛冈县",
+        "type": "3"
+      },
+      {
+        "id": "793",
+        "parent_id": "87",
+        "name": "阳山县",
+        "type": "3"
+      },
+      {
+        "id": "794",
+        "parent_id": "87",
+        "name": "清新县",
+        "type": "3"
+      },
+      {
+        "id": "795",
+        "parent_id": "87",
+        "name": "连山",
+        "type": "3"
+      },
+      {
+        "id": "796",
+        "parent_id": "87",
+        "name": "连南",
+        "type": "3"
+      },
+      {
+        "id": "797",
+        "parent_id": "88",
+        "name": "南澳县",
+        "type": "3"
+      },
+      {
+        "id": "798",
+        "parent_id": "88",
+        "name": "潮阳区",
+        "type": "3"
+      },
+      {
+        "id": "799",
+        "parent_id": "88",
+        "name": "澄海区",
+        "type": "3"
+      },
+      {
+        "id": "800",
+        "parent_id": "88",
+        "name": "龙湖区",
+        "type": "3"
+      },
+      {
+        "id": "801",
+        "parent_id": "88",
+        "name": "金平区",
+        "type": "3"
+      },
+      {
+        "id": "802",
+        "parent_id": "88",
+        "name": "濠江区",
+        "type": "3"
+      },
+      {
+        "id": "803",
+        "parent_id": "88",
+        "name": "潮南区",
+        "type": "3"
+      },
+      {
+        "id": "804",
+        "parent_id": "89",
+        "name": "城区",
+        "type": "3"
+      },
+      {
+        "id": "805",
+        "parent_id": "89",
+        "name": "陆丰市",
+        "type": "3"
+      },
+      {
+        "id": "806",
+        "parent_id": "89",
+        "name": "海丰县",
+        "type": "3"
+      },
+      {
+        "id": "807",
+        "parent_id": "89",
+        "name": "陆河县",
+        "type": "3"
+      },
+      {
+        "id": "808",
+        "parent_id": "90",
+        "name": "曲江县",
+        "type": "3"
+      },
+      {
+        "id": "809",
+        "parent_id": "90",
+        "name": "浈江区",
+        "type": "3"
+      },
+      {
+        "id": "810",
+        "parent_id": "90",
+        "name": "武江区",
+        "type": "3"
+      },
+      {
+        "id": "811",
+        "parent_id": "90",
+        "name": "曲江区",
+        "type": "3"
+      },
+      {
+        "id": "812",
+        "parent_id": "90",
+        "name": "乐昌市",
+        "type": "3"
+      },
+      {
+        "id": "813",
+        "parent_id": "90",
+        "name": "南雄市",
+        "type": "3"
+      },
+      {
+        "id": "814",
+        "parent_id": "90",
+        "name": "始兴县",
+        "type": "3"
+      },
+      {
+        "id": "815",
+        "parent_id": "90",
+        "name": "仁化县",
+        "type": "3"
+      },
+      {
+        "id": "816",
+        "parent_id": "90",
+        "name": "翁源县",
+        "type": "3"
+      },
+      {
+        "id": "817",
+        "parent_id": "90",
+        "name": "新丰县",
+        "type": "3"
+      },
+      {
+        "id": "818",
+        "parent_id": "90",
+        "name": "乳源",
+        "type": "3"
+      },
+      {
+        "id": "819",
+        "parent_id": "91",
+        "name": "江城区",
+        "type": "3"
+      },
+      {
+        "id": "820",
+        "parent_id": "91",
+        "name": "阳春市",
+        "type": "3"
+      },
+      {
+        "id": "821",
+        "parent_id": "91",
+        "name": "阳西县",
+        "type": "3"
+      },
+      {
+        "id": "822",
+        "parent_id": "91",
+        "name": "阳东县",
+        "type": "3"
+      },
+      {
+        "id": "823",
+        "parent_id": "92",
+        "name": "云城区",
+        "type": "3"
+      },
+      {
+        "id": "824",
+        "parent_id": "92",
+        "name": "罗定市",
+        "type": "3"
+      },
+      {
+        "id": "825",
+        "parent_id": "92",
+        "name": "新兴县",
+        "type": "3"
+      },
+      {
+        "id": "826",
+        "parent_id": "92",
+        "name": "郁南县",
+        "type": "3"
+      },
+      {
+        "id": "827",
+        "parent_id": "92",
+        "name": "云安县",
+        "type": "3"
+      },
+      {
+        "id": "828",
+        "parent_id": "93",
+        "name": "赤坎区",
+        "type": "3"
+      },
+      {
+        "id": "829",
+        "parent_id": "93",
+        "name": "霞山区",
+        "type": "3"
+      },
+      {
+        "id": "830",
+        "parent_id": "93",
+        "name": "坡头区",
+        "type": "3"
+      },
+      {
+        "id": "831",
+        "parent_id": "93",
+        "name": "麻章区",
+        "type": "3"
+      },
+      {
+        "id": "832",
+        "parent_id": "93",
+        "name": "廉江市",
+        "type": "3"
+      },
+      {
+        "id": "833",
+        "parent_id": "93",
+        "name": "雷州市",
+        "type": "3"
+      },
+      {
+        "id": "834",
+        "parent_id": "93",
+        "name": "吴川市",
+        "type": "3"
+      },
+      {
+        "id": "835",
+        "parent_id": "93",
+        "name": "遂溪县",
+        "type": "3"
+      },
+      {
+        "id": "836",
+        "parent_id": "93",
+        "name": "徐闻县",
+        "type": "3"
+      },
+      {
+        "id": "837",
+        "parent_id": "94",
+        "name": "肇庆市",
+        "type": "3"
+      },
+      {
+        "id": "838",
+        "parent_id": "94",
+        "name": "高要市",
+        "type": "3"
+      },
+      {
+        "id": "839",
+        "parent_id": "94",
+        "name": "四会市",
+        "type": "3"
+      },
+      {
+        "id": "840",
+        "parent_id": "94",
+        "name": "广宁县",
+        "type": "3"
+      },
+      {
+        "id": "841",
+        "parent_id": "94",
+        "name": "怀集县",
+        "type": "3"
+      },
+      {
+        "id": "842",
+        "parent_id": "94",
+        "name": "封开县",
+        "type": "3"
+      },
+      {
+        "id": "843",
+        "parent_id": "94",
+        "name": "德庆县",
+        "type": "3"
+      },
+      {
+        "id": "844",
+        "parent_id": "95",
+        "name": "石岐街道",
+        "type": "3"
+      },
+      {
+        "id": "845",
+        "parent_id": "95",
+        "name": "东区街道",
+        "type": "3"
+      },
+      {
+        "id": "846",
+        "parent_id": "95",
+        "name": "西区街道",
+        "type": "3"
+      },
+      {
+        "id": "847",
+        "parent_id": "95",
+        "name": "环城街道",
+        "type": "3"
+      },
+      {
+        "id": "848",
+        "parent_id": "95",
+        "name": "中山港街道",
+        "type": "3"
+      },
+      {
+        "id": "849",
+        "parent_id": "95",
+        "name": "五桂山街道",
+        "type": "3"
+      },
+      {
+        "id": "850",
+        "parent_id": "96",
+        "name": "香洲区",
+        "type": "3"
+      },
+      {
+        "id": "851",
+        "parent_id": "96",
+        "name": "斗门区",
+        "type": "3"
+      },
+      {
+        "id": "852",
+        "parent_id": "96",
+        "name": "金湾区",
+        "type": "3"
+      },
+      {
+        "id": "853",
+        "parent_id": "97",
+        "name": "邕宁区",
+        "type": "3"
+      },
+      {
+        "id": "854",
+        "parent_id": "97",
+        "name": "青秀区",
+        "type": "3"
+      },
+      {
+        "id": "855",
+        "parent_id": "97",
+        "name": "兴宁区",
+        "type": "3"
+      },
+      {
+        "id": "856",
+        "parent_id": "97",
+        "name": "良庆区",
+        "type": "3"
+      },
+      {
+        "id": "857",
+        "parent_id": "97",
+        "name": "西乡塘区",
+        "type": "3"
+      },
+      {
+        "id": "858",
+        "parent_id": "97",
+        "name": "江南区",
+        "type": "3"
+      },
+      {
+        "id": "859",
+        "parent_id": "97",
+        "name": "武鸣县",
+        "type": "3"
+      },
+      {
+        "id": "860",
+        "parent_id": "97",
+        "name": "隆安县",
+        "type": "3"
+      },
+      {
+        "id": "861",
+        "parent_id": "97",
+        "name": "马山县",
+        "type": "3"
+      },
+      {
+        "id": "862",
+        "parent_id": "97",
+        "name": "上林县",
+        "type": "3"
+      },
+      {
+        "id": "863",
+        "parent_id": "97",
+        "name": "宾阳县",
+        "type": "3"
+      },
+      {
+        "id": "864",
+        "parent_id": "97",
+        "name": "横县",
+        "type": "3"
+      },
+      {
+        "id": "865",
+        "parent_id": "98",
+        "name": "秀峰区",
+        "type": "3"
+      },
+      {
+        "id": "866",
+        "parent_id": "98",
+        "name": "叠彩区",
+        "type": "3"
+      },
+      {
+        "id": "867",
+        "parent_id": "98",
+        "name": "象山区",
+        "type": "3"
+      },
+      {
+        "id": "868",
+        "parent_id": "98",
+        "name": "七星区",
+        "type": "3"
+      },
+      {
+        "id": "869",
+        "parent_id": "98",
+        "name": "雁山区",
+        "type": "3"
+      },
+      {
+        "id": "870",
+        "parent_id": "98",
+        "name": "阳朔县",
+        "type": "3"
+      },
+      {
+        "id": "871",
+        "parent_id": "98",
+        "name": "临桂县",
+        "type": "3"
+      },
+      {
+        "id": "872",
+        "parent_id": "98",
+        "name": "灵川县",
+        "type": "3"
+      },
+      {
+        "id": "873",
+        "parent_id": "98",
+        "name": "全州县",
+        "type": "3"
+      },
+      {
+        "id": "874",
+        "parent_id": "98",
+        "name": "平乐县",
+        "type": "3"
+      },
+      {
+        "id": "875",
+        "parent_id": "98",
+        "name": "兴安县",
+        "type": "3"
+      },
+      {
+        "id": "876",
+        "parent_id": "98",
+        "name": "灌阳县",
+        "type": "3"
+      },
+      {
+        "id": "877",
+        "parent_id": "98",
+        "name": "荔浦县",
+        "type": "3"
+      },
+      {
+        "id": "878",
+        "parent_id": "98",
+        "name": "资源县",
+        "type": "3"
+      },
+      {
+        "id": "879",
+        "parent_id": "98",
+        "name": "永福县",
+        "type": "3"
+      },
+      {
+        "id": "880",
+        "parent_id": "98",
+        "name": "龙胜",
+        "type": "3"
+      },
+      {
+        "id": "881",
+        "parent_id": "98",
+        "name": "恭城",
+        "type": "3"
+      },
+      {
+        "id": "882",
+        "parent_id": "99",
+        "name": "右江区",
+        "type": "3"
+      },
+      {
+        "id": "883",
+        "parent_id": "99",
+        "name": "凌云县",
+        "type": "3"
+      },
+      {
+        "id": "884",
+        "parent_id": "99",
+        "name": "平果县",
+        "type": "3"
+      },
+      {
+        "id": "885",
+        "parent_id": "99",
+        "name": "西林县",
+        "type": "3"
+      },
+      {
+        "id": "886",
+        "parent_id": "99",
+        "name": "乐业县",
+        "type": "3"
+      },
+      {
+        "id": "887",
+        "parent_id": "99",
+        "name": "德保县",
+        "type": "3"
+      },
+      {
+        "id": "888",
+        "parent_id": "99",
+        "name": "田林县",
+        "type": "3"
+      },
+      {
+        "id": "889",
+        "parent_id": "99",
+        "name": "田阳县",
+        "type": "3"
+      },
+      {
+        "id": "890",
+        "parent_id": "99",
+        "name": "靖西县",
+        "type": "3"
+      },
+      {
+        "id": "891",
+        "parent_id": "99",
+        "name": "田东县",
+        "type": "3"
+      },
+      {
+        "id": "892",
+        "parent_id": "99",
+        "name": "那坡县",
+        "type": "3"
+      },
+      {
+        "id": "893",
+        "parent_id": "99",
+        "name": "隆林",
+        "type": "3"
+      },
+      {
+        "id": "894",
+        "parent_id": "100",
+        "name": "海城区",
+        "type": "3"
+      },
+      {
+        "id": "895",
+        "parent_id": "100",
+        "name": "银海区",
+        "type": "3"
+      },
+      {
+        "id": "896",
+        "parent_id": "100",
+        "name": "铁山港区",
+        "type": "3"
+      },
+      {
+        "id": "897",
+        "parent_id": "100",
+        "name": "合浦县",
+        "type": "3"
+      },
+      {
+        "id": "898",
+        "parent_id": "101",
+        "name": "江州区",
+        "type": "3"
+      },
+      {
+        "id": "899",
+        "parent_id": "101",
+        "name": "凭祥市",
+        "type": "3"
+      },
+      {
+        "id": "900",
+        "parent_id": "101",
+        "name": "宁明县",
+        "type": "3"
+      },
+      {
+        "id": "901",
+        "parent_id": "101",
+        "name": "扶绥县",
+        "type": "3"
+      },
+      {
+        "id": "902",
+        "parent_id": "101",
+        "name": "龙州县",
+        "type": "3"
+      },
+      {
+        "id": "903",
+        "parent_id": "101",
+        "name": "大新县",
+        "type": "3"
+      },
+      {
+        "id": "904",
+        "parent_id": "101",
+        "name": "天等县",
+        "type": "3"
+      },
+      {
+        "id": "905",
+        "parent_id": "102",
+        "name": "港口区",
+        "type": "3"
+      },
+      {
+        "id": "906",
+        "parent_id": "102",
+        "name": "防城区",
+        "type": "3"
+      },
+      {
+        "id": "907",
+        "parent_id": "102",
+        "name": "东兴市",
+        "type": "3"
+      },
+      {
+        "id": "908",
+        "parent_id": "102",
+        "name": "上思县",
+        "type": "3"
+      },
+      {
+        "id": "909",
+        "parent_id": "103",
+        "name": "港北区",
+        "type": "3"
+      },
+      {
+        "id": "910",
+        "parent_id": "103",
+        "name": "港南区",
+        "type": "3"
+      },
+      {
+        "id": "911",
+        "parent_id": "103",
+        "name": "覃塘区",
+        "type": "3"
+      },
+      {
+        "id": "912",
+        "parent_id": "103",
+        "name": "桂平市",
+        "type": "3"
+      },
+      {
+        "id": "913",
+        "parent_id": "103",
+        "name": "平南县",
+        "type": "3"
+      },
+      {
+        "id": "914",
+        "parent_id": "104",
+        "name": "金城江区",
+        "type": "3"
+      },
+      {
+        "id": "915",
+        "parent_id": "104",
+        "name": "宜州市",
+        "type": "3"
+      },
+      {
+        "id": "916",
+        "parent_id": "104",
+        "name": "天峨县",
+        "type": "3"
+      },
+      {
+        "id": "917",
+        "parent_id": "104",
+        "name": "凤山县",
+        "type": "3"
+      },
+      {
+        "id": "918",
+        "parent_id": "104",
+        "name": "南丹县",
+        "type": "3"
+      },
+      {
+        "id": "919",
+        "parent_id": "104",
+        "name": "东兰县",
+        "type": "3"
+      },
+      {
+        "id": "920",
+        "parent_id": "104",
+        "name": "都安",
+        "type": "3"
+      },
+      {
+        "id": "921",
+        "parent_id": "104",
+        "name": "罗城",
+        "type": "3"
+      },
+      {
+        "id": "922",
+        "parent_id": "104",
+        "name": "巴马",
+        "type": "3"
+      },
+      {
+        "id": "923",
+        "parent_id": "104",
+        "name": "环江",
+        "type": "3"
+      },
+      {
+        "id": "924",
+        "parent_id": "104",
+        "name": "大化",
+        "type": "3"
+      },
+      {
+        "id": "925",
+        "parent_id": "105",
+        "name": "八步区",
+        "type": "3"
+      },
+      {
+        "id": "926",
+        "parent_id": "105",
+        "name": "钟山县",
+        "type": "3"
+      },
+      {
+        "id": "927",
+        "parent_id": "105",
+        "name": "昭平县",
+        "type": "3"
+      },
+      {
+        "id": "928",
+        "parent_id": "105",
+        "name": "富川",
+        "type": "3"
+      },
+      {
+        "id": "929",
+        "parent_id": "106",
+        "name": "兴宾区",
+        "type": "3"
+      },
+      {
+        "id": "930",
+        "parent_id": "106",
+        "name": "合山市",
+        "type": "3"
+      },
+      {
+        "id": "931",
+        "parent_id": "106",
+        "name": "象州县",
+        "type": "3"
+      },
+      {
+        "id": "932",
+        "parent_id": "106",
+        "name": "武宣县",
+        "type": "3"
+      },
+      {
+        "id": "933",
+        "parent_id": "106",
+        "name": "忻城县",
+        "type": "3"
+      },
+      {
+        "id": "934",
+        "parent_id": "106",
+        "name": "金秀",
+        "type": "3"
+      },
+      {
+        "id": "935",
+        "parent_id": "107",
+        "name": "城中区",
+        "type": "3"
+      },
+      {
+        "id": "936",
+        "parent_id": "107",
+        "name": "鱼峰区",
+        "type": "3"
+      },
+      {
+        "id": "937",
+        "parent_id": "107",
+        "name": "柳北区",
+        "type": "3"
+      },
+      {
+        "id": "938",
+        "parent_id": "107",
+        "name": "柳南区",
+        "type": "3"
+      },
+      {
+        "id": "939",
+        "parent_id": "107",
+        "name": "柳江县",
+        "type": "3"
+      },
+      {
+        "id": "940",
+        "parent_id": "107",
+        "name": "柳城县",
+        "type": "3"
+      },
+      {
+        "id": "941",
+        "parent_id": "107",
+        "name": "鹿寨县",
+        "type": "3"
+      },
+      {
+        "id": "942",
+        "parent_id": "107",
+        "name": "融安县",
+        "type": "3"
+      },
+      {
+        "id": "943",
+        "parent_id": "107",
+        "name": "融水",
+        "type": "3"
+      },
+      {
+        "id": "944",
+        "parent_id": "107",
+        "name": "三江",
+        "type": "3"
+      },
+      {
+        "id": "945",
+        "parent_id": "108",
+        "name": "钦南区",
+        "type": "3"
+      },
+      {
+        "id": "946",
+        "parent_id": "108",
+        "name": "钦北区",
+        "type": "3"
+      },
+      {
+        "id": "947",
+        "parent_id": "108",
+        "name": "灵山县",
+        "type": "3"
+      },
+      {
+        "id": "948",
+        "parent_id": "108",
+        "name": "浦北县",
+        "type": "3"
+      },
+      {
+        "id": "949",
+        "parent_id": "109",
+        "name": "万秀区",
+        "type": "3"
+      },
+      {
+        "id": "950",
+        "parent_id": "109",
+        "name": "蝶山区",
+        "type": "3"
+      },
+      {
+        "id": "951",
+        "parent_id": "109",
+        "name": "长洲区",
+        "type": "3"
+      },
+      {
+        "id": "952",
+        "parent_id": "109",
+        "name": "岑溪市",
+        "type": "3"
+      },
+      {
+        "id": "953",
+        "parent_id": "109",
+        "name": "苍梧县",
+        "type": "3"
+      },
+      {
+        "id": "954",
+        "parent_id": "109",
+        "name": "藤县",
+        "type": "3"
+      },
+      {
+        "id": "955",
+        "parent_id": "109",
+        "name": "蒙山县",
+        "type": "3"
+      },
+      {
+        "id": "956",
+        "parent_id": "110",
+        "name": "玉州区",
+        "type": "3"
+      },
+      {
+        "id": "957",
+        "parent_id": "110",
+        "name": "北流市",
+        "type": "3"
+      },
+      {
+        "id": "958",
+        "parent_id": "110",
+        "name": "容县",
+        "type": "3"
+      },
+      {
+        "id": "959",
+        "parent_id": "110",
+        "name": "陆川县",
+        "type": "3"
+      },
+      {
+        "id": "960",
+        "parent_id": "110",
+        "name": "博白县",
+        "type": "3"
+      },
+      {
+        "id": "961",
+        "parent_id": "110",
+        "name": "兴业县",
+        "type": "3"
+      },
+      {
+        "id": "962",
+        "parent_id": "111",
+        "name": "南明区",
+        "type": "3"
+      },
+      {
+        "id": "963",
+        "parent_id": "111",
+        "name": "云岩区",
+        "type": "3"
+      },
+      {
+        "id": "964",
+        "parent_id": "111",
+        "name": "花溪区",
+        "type": "3"
+      },
+      {
+        "id": "965",
+        "parent_id": "111",
+        "name": "乌当区",
+        "type": "3"
+      },
+      {
+        "id": "966",
+        "parent_id": "111",
+        "name": "白云区",
+        "type": "3"
+      },
+      {
+        "id": "967",
+        "parent_id": "111",
+        "name": "小河区",
+        "type": "3"
+      },
+      {
+        "id": "968",
+        "parent_id": "111",
+        "name": "金阳新区",
+        "type": "3"
+      },
+      {
+        "id": "969",
+        "parent_id": "111",
+        "name": "新天园区",
+        "type": "3"
+      },
+      {
+        "id": "970",
+        "parent_id": "111",
+        "name": "清镇市",
+        "type": "3"
+      },
+      {
+        "id": "971",
+        "parent_id": "111",
+        "name": "开阳县",
+        "type": "3"
+      },
+      {
+        "id": "972",
+        "parent_id": "111",
+        "name": "修文县",
+        "type": "3"
+      },
+      {
+        "id": "973",
+        "parent_id": "111",
+        "name": "息烽县",
+        "type": "3"
+      },
+      {
+        "id": "974",
+        "parent_id": "112",
+        "name": "西秀区",
+        "type": "3"
+      },
+      {
+        "id": "975",
+        "parent_id": "112",
+        "name": "关岭",
+        "type": "3"
+      },
+      {
+        "id": "976",
+        "parent_id": "112",
+        "name": "镇宁",
+        "type": "3"
+      },
+      {
+        "id": "977",
+        "parent_id": "112",
+        "name": "紫云",
+        "type": "3"
+      },
+      {
+        "id": "978",
+        "parent_id": "112",
+        "name": "平坝县",
+        "type": "3"
+      },
+      {
+        "id": "979",
+        "parent_id": "112",
+        "name": "普定县",
+        "type": "3"
+      },
+      {
+        "id": "980",
+        "parent_id": "113",
+        "name": "毕节市",
+        "type": "3"
+      },
+      {
+        "id": "981",
+        "parent_id": "113",
+        "name": "大方县",
+        "type": "3"
+      },
+      {
+        "id": "982",
+        "parent_id": "113",
+        "name": "黔西县",
+        "type": "3"
+      },
+      {
+        "id": "983",
+        "parent_id": "113",
+        "name": "金沙县",
+        "type": "3"
+      },
+      {
+        "id": "984",
+        "parent_id": "113",
+        "name": "织金县",
+        "type": "3"
+      },
+      {
+        "id": "985",
+        "parent_id": "113",
+        "name": "纳雍县",
+        "type": "3"
+      },
+      {
+        "id": "986",
+        "parent_id": "113",
+        "name": "赫章县",
+        "type": "3"
+      },
+      {
+        "id": "987",
+        "parent_id": "113",
+        "name": "威宁",
+        "type": "3"
+      },
+      {
+        "id": "988",
+        "parent_id": "114",
+        "name": "钟山区",
+        "type": "3"
+      },
+      {
+        "id": "989",
+        "parent_id": "114",
+        "name": "六枝特区",
+        "type": "3"
+      },
+      {
+        "id": "990",
+        "parent_id": "114",
+        "name": "水城县",
+        "type": "3"
+      },
+      {
+        "id": "991",
+        "parent_id": "114",
+        "name": "盘县",
+        "type": "3"
+      },
+      {
+        "id": "992",
+        "parent_id": "115",
+        "name": "凯里市",
+        "type": "3"
+      },
+      {
+        "id": "993",
+        "parent_id": "115",
+        "name": "黄平县",
+        "type": "3"
+      },
+      {
+        "id": "994",
+        "parent_id": "115",
+        "name": "施秉县",
+        "type": "3"
+      },
+      {
+        "id": "995",
+        "parent_id": "115",
+        "name": "三穗县",
+        "type": "3"
+      },
+      {
+        "id": "996",
+        "parent_id": "115",
+        "name": "镇远县",
+        "type": "3"
+      },
+      {
+        "id": "997",
+        "parent_id": "115",
+        "name": "岑巩县",
+        "type": "3"
+      },
+      {
+        "id": "998",
+        "parent_id": "115",
+        "name": "天柱县",
+        "type": "3"
+      },
+      {
+        "id": "999",
+        "parent_id": "115",
+        "name": "锦屏县",
+        "type": "3"
+      },
+      {
+        "id": "1000",
+        "parent_id": "115",
+        "name": "剑河县",
+        "type": "3"
+      },
+      {
+        "id": "1001",
+        "parent_id": "115",
+        "name": "台江县",
+        "type": "3"
+      },
+      {
+        "id": "1002",
+        "parent_id": "115",
+        "name": "黎平县",
+        "type": "3"
+      }
+    ]
+  }
+}

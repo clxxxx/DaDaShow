@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingRight="15dp"
+                android:src="@mipmap/backarrow" />
+
+            <RelativeLayout
+                android:id="@+id/commodity_tab"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/commodity_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/commodity_titie_left"
+                    android:textColor="@color/commodityinfo_title_text_color"
+                    android:textSize="@dimen/title_text_size" />
+
+                <TextView
+                    android:id="@+id/commodity_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/commodity_info"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/commodity_titie_right"
+                    android:textColor="@color/commodityinfo_title_text_color"
+                    android:textSize="@dimen/title_text_size" />
+
+                <ImageView
+                    android:id="@+id/tab_iv"
+                    android:layout_width="40dp"
+                    android:layout_height="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:src="@color/title_color" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/shopping_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/commodity_share"
+                android:paddingRight="10dp"
+                android:src="@mipmap/shoppingcart" />
+
+            <ImageView
+                android:id="@+id/commodity_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="10dp"
+                android:src="@mipmap/commodity_share" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_light_color"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:flipInterval="30"
+            android:persistentDrawingCache="animation" />
+
+    </LinearLayout>
+
+
+    <ViewStub
+        android:id="@+id/gaos_viewstub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/view_gaos_image"
+        android:inflatedId="@+id/gaos_viewstub_iv"/>
+
+</FrameLayout>

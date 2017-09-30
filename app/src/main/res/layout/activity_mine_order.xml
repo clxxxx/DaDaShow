@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xzry.takeshow.widget.TitleBarView
+        android:id="@+id/titlebar_dingdan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_dark_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/order"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="全部"
+            android:gravity="center"
+            android:textColor="@color/fashion_title_txt_bg_selector"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/wait_obligation"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="待付款"
+            android:gravity="center"
+            android:textColor="@color/fashion_title_txt_bg_selector"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/wait_deliver"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="待发货"
+            android:gravity="center"
+            android:textColor="@color/fashion_title_txt_bg_selector"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/wait_receiving"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="待收货"
+            android:gravity="center"
+            android:textColor="@color/fashion_title_txt_bg_selector"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/wait_evaluate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="待评价"
+            android:gravity="center"
+            android:textColor="@color/fashion_title_txt_bg_selector"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/tab_iv"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/theme_dark_color"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+</LinearLayout>

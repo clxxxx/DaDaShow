@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--专题推荐-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:padding="15dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/home_da_sp_text"
+            style="@style/home_little_title"
+            android:text="专题推荐" />
+
+        <TextView
+            android:id="@+id/home_da_sp_tx2"
+            style="@style/home_little_title_child"
+            android:layout_toLeftOf="@+id/home_da_sp_right"
+            android:text="查看更多专题"/>
+        <ImageView
+            android:id="@+id/home_da_sp_right"
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/more"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_6"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recommond_recyclerView"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:focusable="false"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

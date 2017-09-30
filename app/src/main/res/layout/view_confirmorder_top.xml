@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/choose_address"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ico_location" />
+
+        <TextView
+            android:id="@+id/consignee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:text="收  货  人 : "
+            android:textColor="@color/little_title_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/consignee"
+            android:text="小梁"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/little_title_color"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/consignee"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="13612877661"
+            android:textColor="@color/title_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/address_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/consignee"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="5dp"
+            android:text="收货地址 : "
+            android:textColor="@color/little_title_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/address_"
+            android:layout_toLeftOf="@+id/mobile"
+            android:layout_toRightOf="@+id/address_"
+            android:text="广东省深圳市南山区粤海街道科兴科学园A4栋401"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/little_title_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/address_hint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@+id/consignee"
+            android:gravity="center_vertical"
+            android:textColor="@color/little_title_color"
+            android:textSize="14sp"
+            android:background="@color/white"
+            android:text="请填写收货地址"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/more" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/line_add"
+        android:scaleType="centerCrop"/>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="black">#000000</color>
+
+    <color name="red">#ff365d</color>
+
+    <!--主题色-->
+    <color name="theme_dark_color">#FF365D</color>
+    <color name="theme_light_color">#FF96AA</color>
+    <color name="theme_light_color2">#FF4C55</color>
+    <!--渐变色-->
+    <color name="ombre_color_head">#fe4a6b</color>
+    <color name="ombre_color_end">#e8163f</color>
+    <!--字体色  数字越大  字体越淡-->
+    <color name="title_color">#151517</color>
+    <color name="little_title_color">#333333</color>
+    <color name="text_color_1">#666666</color>
+    <color name="text_color_2">#999999</color>
+    <color name="text_color_3">#919191</color>
+    <color name="text_color_4">#aaaaaa</color>
+    <color name="text_color_5">#c0c0c0</color>
+    <!--搜索框背景色-->
+    <color name="search_bg_color">#eeeeee</color>
+    <!--全文背景色-->
+    <color name="activity_bg_color">#F4F5F5</color>
+    <!--分割线-->
+    <color name="line_dark_color">#DDDDDD</color>
+    <color name="line_light_color">#F1F1F1</color>
+
+    <!--商品价格字体色-->
+    <color name="color_orange_red">#ff365d</color>
+
+    <color name="recyclerView_bg">#f2f2f2</color>//列表背景
+
+
+
+    <!--主题色-->
+    <color name="theme_dark_color_FF365D">#FF365D</color>
+    <color name="theme_light_color_FF96AA">#FF96AA</color>
+    <!--渐变色-->
+    <color name="ombre_color_head_fe4a6b">#fe4a6b</color>
+    <color name="ombre_color_end_e8163f">#e8163f</color>
+    <!--字体色  数字越大  字体越淡-->
+    <color name="title_color_151517">#151517</color>
+    <color name="little_title_color_333333">#333333</color>
+    <color name="text_color_666666">#666666</color>
+    <color name="text_color_999999">#999999</color>
+    <color name="text_color_919191">#919191</color>
+    <color name="text_color_aaaaaa">#aaaaaa</color>
+    <!--搜索框背景色-->
+    <color name="search_bg_color_E9E9E9">#E9E9E9</color>
+    <!--全文背景色-->
+    <color name="activity_bg_color_F4F5F5">#F4F5F5</color>
+    <!--分割线-->
+    <color name="line_dark_color_DDDDDD">#DDDDDD</color>
+    <color name="line_light_color_F1F1F1">#F1F1F1</color>
+
+    <!--商品价格字体色-->
+    <color name="color_orange_red_ff365d">#ff365d</color>
+
+    <color name="recyclerView_bg_f2f2f2">#f2f2f2</color>
+    //列表背景
+
+
+
+    //图片默认背景
+    <color name="img_bg">#f3f8fe</color>
+
+
+
+
+    <color name="edit_bg">#dfdfdf</color>//登录输入框背景
+
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="split_line_color">#ffc9d1d9</color>
+    <color name="color_text_02">#333333</color>
+    <color name="color_text_2">#333333</color>
+    <color name="color_text_1">#333333</color>
+    <color name="color_text_01">#333333</color>
+    <color name="sort_catagory">#FFE0E0E0</color>
+    <color name="input_stock">#ffbdc7d8</color>
+    <color name="liji_c_blue">#FF365D</color>
+    <color name="text_color_02">#333333</color>
+
+    <color name="indicator_1">#55B3C2</color>
+    <color name="indicator_2">#64A4A4</color>
+    <color name="indicator_3">#66D7B9</color>
+    <color name="indicator_4">#FDBC7D</color>
+
+    <!--物流状态字体颜色-->
+    <color name="logistics_1">#10d468</color>
+    <color name="logistics_2">#36b1ff</color>
+    <color name="logistics_3">#ff366a</color>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <ImageView
+            android:id="@+id/titlebar_back"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/back_map" />
+        <ImageView
+            android:id="@+id/titlebar_locationmap"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/location_map"
+            android:layout_alignParentRight="true"/>
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="86px"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_toLeftOf="@+id/tv_store_mode"-->
+        <!--android:layout_toRightOf="@+id/titlebar_back"-->
+        <!--android:background="@drawable/search_shape"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:clickable="true"-->
+        <!--&gt;-->
+
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/store_search"-->
+        <!--android:layout_marginLeft="@dimen/x21"-->
+        <!--/>-->
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/stores_search"-->
+        <!--android:textSize="@dimen/x40"-->
+        <!--android:layout_marginLeft="@dimen/x19"-->
+        <!--android:textColor="@color/search_txcolor"-->
+        <!--/>-->
+        <!--</LinearLayout>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_store_mode"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginRight="@dimen/x42"-->
+        <!--android:text="普通模式"-->
+        <!--android:textColor="@color/rose_red"-->
+        <!--android:textSize="35px"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginLeft="@dimen/x24"-->
+        <!--/>-->
+
+    </RelativeLayout>
+
+</FrameLayout>

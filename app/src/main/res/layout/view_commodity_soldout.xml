@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sxjs.common.widget.percentlayout.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        app:layout_widthPercent="14.67%"
+        app:layout_aspectRatio="100%"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/service"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="客服"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/little_title_color"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_light_color"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        app:layout_widthPercent="14.67%"
+        app:layout_aspectRatio="100%"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ico_shop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="门店"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/little_title_color"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/add_to_shopping_car"
+        android:layout_width="match_parent"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:text="已下架"
+        android:gravity="center"
+        android:background="@color/text_color_2"
+        android:layout_height="match_parent" />
+
+</com.sxjs.common.widget.percentlayout.PercentLinearLayout>

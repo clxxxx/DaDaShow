@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--精选活动-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+         style="@style/home_little_title"
+         android:padding="15dp"
+         android:text="精选好活动" />
+
+    <com.sxjs.common.widget.percentlayout.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:padding="1px"
+        android:background="@drawable/border_line"
+        android:orientation="horizontal">
+
+        <com.sxjs.common.widget.imageview.ExpandImageView
+            android:id="@+id/activity_img1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_aspectRatio="91.3%"
+            app:layout_widthPercent="50%"
+            android:scaleType="centerCrop"/>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/line_dark_color"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            app:layout_widthPercent="50%"
+            app:layout_aspectRatio="91.3%"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <com.sxjs.common.widget.imageview.ExpandImageView
+                android:id="@+id/activity_img2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line_dark_color"/>
+
+            <com.sxjs.common.widget.imageview.ExpandImageView
+                android:id="@+id/activity_img3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+    </com.sxjs.common.widget.percentlayout.PercentLinearLayout>
+</LinearLayout>

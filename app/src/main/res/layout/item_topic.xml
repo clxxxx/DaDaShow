@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sxjs.common.widget.percentlayout.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <com.sxjs.common.widget.percentlayout.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_border_bg"
+            android:orientation="vertical"
+            >
+
+            <com.sxjs.common.widget.imageview.ExpandImageView
+                android:id="@+id/topic_img"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_aspectRatio="133%"
+                app:layout_widthPercent="100%"
+                app:roundBottomLeft="false"
+                app:roundBottomRight="false"
+                app:roundTopLeft="true"
+                app:roundTopRight="true"
+                app:roundedCornerRadius="5dp" />
+
+            <TextView
+                android:id="@+id/topic_title"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_aspectRatio="363%"
+                app:layout_widthPercent="100%"
+                android:gravity="center"
+                android:textColor="@color/text_color_1"
+                android:text="#新闻#"
+                android:textSize="13sp"/>
+        </com.sxjs.common.widget.percentlayout.PercentLinearLayout>
+
+</com.sxjs.common.widget.percentlayout.PercentLinearLayout>

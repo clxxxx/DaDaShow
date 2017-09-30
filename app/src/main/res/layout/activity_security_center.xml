@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xzry.takeshow.ui.mine.SecurityCenterActivity">
+    <com.xzry.takeshow.widget.TitleBarView
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:id="@+id/security_center_account"
+        android:layout_below="@+id/setting_personal_data"
+        style="@style/mine_setting_lin"
+        android:layout_marginTop="10dp">
+        <TextView
+            style="@style/mine_setting_text"
+            android:text="绑定手机" />
+        <TextView
+            android:id="@+id/security_center_account_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xxxx"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/text_color_aaaaaa"
+            android:layout_toLeftOf="@+id/security_right"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_centerVertical="true"/>
+        <ImageView
+            android:id="@+id/security_right"
+            style="@style/mine_list_img_right" />
+    </RelativeLayout>
+</LinearLayout>

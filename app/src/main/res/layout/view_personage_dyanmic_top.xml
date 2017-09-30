@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sxjs.common.widget.aspect_ratio_layout.AspectRatioLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_homepage"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    app:Layout_viewAspectRatio="1.67"
+    android:layout_height="wrap_content">
+
+    <com.sxjs.common.widget.imageview.ExpandImageView
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        fresco:roundAsCircle="true"
+        android:background="@color/theme_dark_color"
+        android:layout_marginTop="75dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="两木陈小姐"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="13sp"/>
+
+        <ImageView
+            android:id="@+id/sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/name"
+            android:src="@mipmap/boy"/>
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="789"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关注"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:textSize="11sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="789"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="粉丝"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:textSize="11sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="789"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="被赞"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:textSize="11sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</com.sxjs.common.widget.aspect_ratio_layout.AspectRatioLinearLayout>

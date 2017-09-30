@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/fashion_tab"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_height="@dimen/title_h">
+
+            <TextView
+                android:id="@+id/fashion_recommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_centerVertical="true"
+                android:text="@string/fashion_titie_left"
+                android:textColor="@color/fashion_title_txt_bg_selector"
+                android:textSize="@dimen/title_text_size" />
+
+            <TextView
+                android:id="@+id/fashion_attention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/fashion_recommend"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_centerVertical="true"
+                android:text="@string/fashion_titie_right"
+                android:textColor="@color/fashion_title_txt_bg_selector"
+                android:textSize="@dimen/title_text_size" />
+
+            <ImageView
+                android:id="@+id/tab_iv"
+                android:layout_width="40dp"
+                android:layout_height="2dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_alignParentBottom="true"
+                android:src="@color/theme_dark_color" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="15dp"
+            android:src="@mipmap/camera" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_light_color"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+</LinearLayout>

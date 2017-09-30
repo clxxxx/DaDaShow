@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xzry.takeshow.ui.mine.CollectGoodsFragment">
+    <RelativeLayout
+        style="@style/mine_collect_goods_linearlayout">
+        <CheckBox
+            android:id="@+id/goods_available"
+            android:text="仅看有货"
+            style="@style/mine_collect_goods_text" />
+        <CheckBox
+            android:id="@+id/goods_promotion"
+            android:text="正在促销"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/goods_available"
+            style="@style/mine_collect_goods_text" />
+        <CheckBox
+            android:id="@+id/goods_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品分类"
+            android:textSize="12sp"
+            android:textColor="@color/theme_dark_color"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@drawable/collect_goods_type"
+            android:drawablePadding="@dimen/dp_5" />
+        <!--<ImageView-->
+            <!--android:id="@+id/goods_unfold"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@mipmap/ico_unfold"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true" />-->
+    </RelativeLayout>
+    <View style="@style/long_line_horizontall"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fg_collect_recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:id="@+id/lay_goods_type"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="宝贝类目"
+                android:textSize="@dimen/sp_11"
+                android:textColor="@color/text_color_aaaaaa"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"/>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/goods_type_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

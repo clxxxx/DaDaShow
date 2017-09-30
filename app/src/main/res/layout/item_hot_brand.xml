@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/border_line"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.sxjs.common.widget.imageview.ExpandImageView
+            android:id="@+id/brand_log"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:padding="1px"
+            android:background="@drawable/border_line"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/brand_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/little_title_color"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/goodsCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="986"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/theme_dark_color"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="热门商品"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/text_color_3"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.sxjs.common.widget.percentlayout.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_aspectRatio="100%"
+            app:layout_widthPercent="31%">
+
+            <com.sxjs.common.widget.imageview.ExpandImageView
+                android:id="@+id/goods_img1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/img_bg"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/goods_price1"
+                style="@style/home_brand_stores_price_tx"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_widthPercent="31%"
+            app:layout_marginLeftPercentX="3.5%"
+            app:layout_marginRightPercentX="3.5%"
+            app:layout_aspectRatio="100%">
+            <com.sxjs.common.widget.imageview.ExpandImageView
+                android:id="@+id/goods_img2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/img_bg"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/goods_price2"
+                style="@style/home_brand_stores_price_tx"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_widthPercent="31%"
+            app:layout_aspectRatio="100%">
+            <com.sxjs.common.widget.imageview.ExpandImageView
+                android:id="@+id/goods_img3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/img_bg"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/goods_price3"
+                style="@style/home_brand_stores_price_tx"/>
+        </RelativeLayout>
+    </com.sxjs.common.widget.percentlayout.PercentLinearLayout>
+
+
+
+</LinearLayout>

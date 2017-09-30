@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="dialog_bg">#aa333333</color>
+    <color name="no_network_bg">#333333</color>
+    <color name="search_corner_bg">#ddBBBABA</color>
+
+    <color name="title_color">#151517</color>
+    <!--分割线-->
+    <color name="line_dark_color">#DDDDDD</color>
+    <color name="line_light_color">#F1F1F1</color>
+
+
+    <color name="recycler_swipe_color_text_gray">#FF777777</color>
+
+    <color name="recycler_swipe_color_loading_color1">#55777777</color>
+    <color name="recycler_swipe_color_loading_color2">#B1777777</color>
+    <color name="recycler_swipe_color_loading_color3">#FF777777</color>
+</resources>

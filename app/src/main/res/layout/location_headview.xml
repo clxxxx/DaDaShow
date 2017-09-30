@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/recyclerView_bg"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="定位城市"
+        android:textSize="12sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color_2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="深圳"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:background="@drawable/location_selector_bg"
+            android:textColor="@color/title_color"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="15dp"
+            android:textColor="@color/title_color"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/title_color"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="热门城市"
+        android:textSize="17sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color_2"/>
+
+    <LinearLayout
+        style="@style/home_location_lay">
+        <TextView
+            android:id="@+id/location_tx1"
+            style="@style/home_location_style"
+            android:text="北京" />
+        <TextView
+            android:id="@+id/location_tx2"
+            style="@style/home_location_style"
+            android:layout_marginLeft="10dp"
+            android:text="深圳" />
+        <TextView
+            android:id="@+id/location_tx3"
+            style="@style/home_location_style"
+            android:layout_marginLeft="10dp"
+            android:text="广州" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/home_location_lay"
+        android:layout_marginTop="@dimen/dp_10">
+        <TextView
+            android:id="@+id/location_tx4"
+            style="@style/home_location_style"
+            android:text="上海" />
+        <TextView
+            android:id="@+id/location_tx5"
+            style="@style/home_location_style"
+            android:layout_marginLeft="10dp"
+            android:text="成都" />
+        <TextView
+            android:id="@+id/location_tx6"
+            style="@style/home_location_style"
+            android:layout_marginLeft="10dp"
+            android:text="南京" />
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/home_location_lay"
+        android:layout_marginTop="@dimen/dp_10">
+        <TextView
+            android:id="@+id/location_tx7"
+            style="@style/home_location_style"
+            android:text="苏州" />
+        <TextView
+            android:id="@+id/location_tx8"
+            style="@style/home_location_style"
+            android:layout_marginLeft="10dp"
+            android:text="西安" />
+        <TextView
+            android:id="@+id/location_tx9"
+            style="@style/home_location_style"
+            android:layout_marginLeft="10dp"
+            android:text="重庆" />
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/home_location_lay"
+        android:layout_marginTop="@dimen/dp_10">
+        <TextView
+            android:id="@+id/location_tx10"
+            style="@style/home_location_style"
+            android:text="天津" />
+        <TextView
+            android:id="@+id/location_tx11"
+            style="@style/home_location_style"
+            android:layout_marginLeft="10dp"
+            android:text="武汉" />
+        <TextView
+            android:id="@+id/location_tx12"
+            style="@style/home_location_style"
+            android:layout_marginLeft="10dp"
+            android:text="杭州" />
+
+    </LinearLayout>
+</LinearLayout>

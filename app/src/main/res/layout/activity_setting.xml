@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/activity_bg"
+    tools:context="com.xzry.takeshow.ui.mine.SettingActivity">
+    <com.xzry.takeshow.widget.TitleBarView
+        android:id="@+id/titlebar_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:id="@+id/setting_personal_data"
+        android:layout_below="@+id/titlebar_view"
+        style="@style/mine_setting_lin"
+        android:layout_marginTop="@dimen/dp_10">
+        <TextView
+            style="@style/mine_setting_text"
+            android:text="个人资料" />
+        <ImageView style="@style/mine_list_img_right" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/setting_security_center"
+        android:layout_below="@+id/setting_personal_data"
+        style="@style/mine_setting_lin"
+        android:layout_marginTop="0.5dp">
+        <TextView
+            style="@style/mine_setting_text"
+            android:text="安全中心" />
+        <ImageView style="@style/mine_list_img_right" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/setting_clear_cache"
+        android:layout_below="@+id/setting_security_center"
+        style="@style/mine_setting_lin"
+        android:layout_marginTop="@dimen/dp_10">
+        <TextView
+            style="@style/mine_setting_text"
+            android:text="清除缓存" />
+
+        <TextView
+            style="@style/mine_setting_text"
+            android:layout_toLeftOf="@+id/setting_right"
+            android:hint="0.25M"
+            android:layout_marginRight="@dimen/dp_15"/>
+        <ImageView
+            android:id="@+id/setting_right"
+            style="@style/mine_list_img_right" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/setting_exit"
+        style="@style/common_button_48"
+        android:text="@string/exit_account"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

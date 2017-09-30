@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:contentScrim="@color/text_color_1"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <!--app:contentScrim="?attr/colorPrimary"  标题栏变色-->
+            <include layout="@layout/ui_brand_shop_head"/>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/home_pager_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_collapseMode="pin"
+                app:contentInsetStart="0dp"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+                <include layout="@layout/ui_brand_shop_title"/>
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.CollapsingToolbarLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white"
+            app:layout_scrollFlags="enterAlways">
+            <View style="@style/long_line_horizontall"/>
+            <android.support.design.widget.TabLayout
+                android:id="@+id/brands_tablayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:tabSelectedTextColor="@color/theme_dark_color"
+                app:tabTextColor="@color/little_title_color_333333" />
+            <View style="@style/long_line_horizontall"/>
+
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/brands_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <include layout="@layout/item_brand_shop_botton"/>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>
+

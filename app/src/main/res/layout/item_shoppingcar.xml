@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.sxjs.common.widget.percentlayout.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/choose_goods"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:src="@drawable/shoppingcar_select_selceted"/>
+        
+        <com.sxjs.common.widget.imageview.ExpandImageView
+            android:id="@+id/goods_img"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            app:layout_aspectRatio="100%"
+            app:roundedCornerRadius="5dp"
+            app:roundBottomLeft="true"
+            app:roundBottomRight="true"
+            app:roundTopLeft="true"
+            app:roundTopRight="true"
+            android:background="@color/img_bg"/>
+
+        <RelativeLayout
+            android:id="@+id/goods_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:id="@+id/commodity_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_toLeftOf="@+id/price"
+                android:layout_marginRight="30dp"
+                android:lines="2"
+                android:ellipsize="end"
+                android:text="乐町2017夏季新款女装绿色短款刺绣宽松短袖T恤女夏韩版纯色上衣"
+                android:textColor="@color/little_title_color"/>
+
+            <LinearLayout
+                android:id="@+id/specification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/commodity_name"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:layout_alignParentBottom="true"
+                    android:text="颜色:"
+                    android:textColor="@color/text_color_2"/>
+
+                <TextView
+                    android:id="@+id/commodity_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="黑色;"
+                    android:textColor="@color/text_color_2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="尺码:"
+                    android:textColor="@color/text_color_2"/>
+
+                <TextView
+                    android:id="@+id/commodity_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="M"
+                    android:textColor="@color/text_color_2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="bottom|right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/current_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="¥118.00"
+                    android:textColor="@color/theme_dark_color"/>
+
+                <TextView
+                    android:id="@+id/commodity_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="right"
+                    android:layout_alignParentRight="true"
+                    android:text="x1"
+                    android:textColor="@color/text_color_1"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/edit_query"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:id="@+id/edit_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toLeftOf="@+id/delete"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/subtract"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/subtract"/>
+
+                <TextView
+                    android:id="@+id/compile_quantity"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:text="1"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_2"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/add"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/edit_quantity"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:layout_alignParentBottom="true"
+                    android:text="颜色:"
+                    android:textColor="@color/text_color_2"/>
+
+                <TextView
+                    android:id="@+id/commodity_color2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="黑色;"
+                    android:textColor="@color/text_color_2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="尺码:"
+                    android:textColor="@color/text_color_2"/>
+
+                <TextView
+                    android:id="@+id/commodity_size2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="M"
+                    android:textColor="@color/text_color_2"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/theme_dark_color"
+                android:gravity="center"
+                android:visibility="gone"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_alignParentRight="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/ico_delete"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </com.sxjs.common.widget.percentlayout.PercentLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/activity_bg_color"/>
+
+</LinearLayout>

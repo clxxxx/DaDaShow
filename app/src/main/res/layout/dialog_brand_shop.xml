@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+        <LinearLayout
+            android:id="@+id/dialog_brand_shop_1"
+            style="@style/brand_shop_dialog_layout">
+            <ImageView
+                style="@style/brand_shop_dialog_img"
+                android:src="@mipmap/ico_home"/>
+            <TextView
+                style="@style/brand_shop_dialog_text"
+                android:text="首页" />
+        </LinearLayout>
+        <View style="@style/long_line_horizontall"/>
+        <LinearLayout
+            android:id="@+id/dialog_brand_shop_2"
+            style="@style/brand_shop_dialog_layout">
+            <ImageView
+                style="@style/brand_shop_dialog_img"
+                android:src="@mipmap/ico_feedback"/>
+            <TextView
+                style="@style/brand_shop_dialog_text"
+                android:text="反馈" />
+        </LinearLayout>
+        <View style="@style/long_line_horizontall"/>
+        <LinearLayout
+            android:id="@+id/dialog_brand_shop_3"
+            style="@style/brand_shop_dialog_layout">
+            <ImageView
+                style="@style/brand_shop_dialog_img"
+                android:src="@mipmap/ico_personal"/>
+            <TextView
+                style="@style/brand_shop_dialog_text"
+                android:text="个人中心" />
+        </LinearLayout>
+        <View style="@style/long_line_horizontall"/>
+        <LinearLayout
+            android:id="@+id/dialog_brand_shop_4"
+            style="@style/brand_shop_dialog_layout">
+            <ImageView
+                style="@style/brand_shop_dialog_img"
+                android:src="@mipmap/ico_share"/>
+            <TextView
+                style="@style/brand_shop_dialog_text"
+                android:text="分享" />
+        </LinearLayout>
+        <View style="@style/long_line_horizontall"/>
+</LinearLayout>

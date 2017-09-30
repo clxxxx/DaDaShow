@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:melove="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.xzry.takeshow.widget.SquareRoundCornerImageView
+        android:id="@+id/fiv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"
+        android:background="@color/activity_bg_color" />
+
+    <LinearLayout
+        android:id="@+id/ll_del"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@mipmap/close" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_duration"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/buybuybuy"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="8dp"
+        android:text="00:00"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:visibility="gone" />
+</RelativeLayout>

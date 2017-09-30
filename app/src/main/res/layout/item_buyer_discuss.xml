@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.sxjs.common.widget.percentlayout.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <com.sxjs.common.widget.imageview.ExpandImageView
+            android:id="@+id/avatar_img"
+            android:scaleType="centerCrop"
+            app:roundAsCircle="true"
+            app:placeholderImage="@mipmap/pho_avatar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="忘****川"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/title_color"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017年8月8日"
+            android:textColor="@color/text_color_2"
+            android:textSize="10sp"/>
+
+    </com.sxjs.common.widget.percentlayout.PercentLinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/title_color"
+        android:textSize="13sp"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="3dp"
+        android:text="这真的是我买过最好看的一件衣服了，感谢搭搭秀让我买到这么好看的衣服，内心超级激动的啦~~~"/>
+
+
+    <TextView
+        android:id="@+id/commodity_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="颜色分类：白色"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color_2"
+        android:textSize="12sp"/>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="删除"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/theme_dark_color"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_dark_color"/>
+
+    <TextView
+        android:id="@+id/add_"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="加入收藏夹"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/little_title_color"
+        android:textSize="15sp"/>
+
+</LinearLayout>

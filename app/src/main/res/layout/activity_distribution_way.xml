@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/activity_bg_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xzry.takeshow.widget.TitleBarView
+        android:id="@+id/distribution_way_title"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_light_color"/>
+    
+    <LinearLayout
+        android:id="@+id/expressage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/ico_car2"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="快递"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/little_title_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="包邮"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/little_title_color"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/more"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/getStore"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/store"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="门店自提"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/little_title_color"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/more"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--每日特价-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
+        <TextView
+            android:id="@+id/home_da_sp_text"
+            style="@style/home_little_title"
+            android:text="每日特价" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/label_hot"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/home_da_sp_text"
+            android:layout_marginLeft="@dimen/dp_5"/>
+        <TextView
+            android:id="@+id/home_da_sp_tx1"
+            style="@style/home_little_title_child"
+            android:layout_toLeftOf="@+id/home_da_sp_time"
+            android:text="每日"/>
+        <TextView
+            android:id="@+id/home_da_sp_time"
+            style="@style/home_theme_light_child"
+            android:layout_toLeftOf="@+id/home_da_sp_tx2"
+            android:text="11点" />
+        <TextView
+            android:id="@+id/home_da_sp_tx2"
+            style="@style/home_little_title_child"
+            android:layout_toLeftOf="@+id/home_da_sp_right"
+            android:text="更新"/>
+        <ImageView
+            android:id="@+id/home_da_sp_right"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_12"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/more"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_7"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/specials_recyclerView"
+        android:layout_width="match_parent"
+        android:focusable="false"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:paddingTop="10dp"
+    android:paddingBottom="15dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/left_interval"
+        android:layout_width="15dp"
+        android:visibility="gone"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.sxjs.common.widget.imageview.ExpandImageView
+            android:id="@+id/goods_img"
+            android:layout_width="63dp"
+            android:layout_height="63dp"
+            android:scaleType="center"
+            android:background="@color/img_bg"/>
+
+        <TextView
+            android:id="@+id/goods_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="夏季无袖连衣裙"
+            android:layout_marginTop="10dp"
+            android:maxWidth="75dp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textColor="@color/text_color_1"
+            android:textSize="11sp"/>
+
+        <TextView
+            android:id="@+id/goods_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥86"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/theme_dark_color"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/right_interval"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

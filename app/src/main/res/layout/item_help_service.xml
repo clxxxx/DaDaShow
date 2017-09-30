@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/security_center_account"
+        android:layout_below="@+id/setting_personal_data"
+        style="@style/mine_setting_lin"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/help_service_title"
+            style="@style/mine_setting_text" />
+        <ImageView
+            android:id="@+id/security_right"
+            style="@style/mine_list_img_right" />
+        <View style="@style/long_line_horizontall"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/help_service_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/text_color_666666"
+        android:textSize="@dimen/sp_10"
+        android:paddingTop="@dimen/dp_20"
+        android:paddingBottom="@dimen/dp_20"
+        android:paddingLeft="@dimen/home_pading"
+        android:paddingRight="@dimen/home_pading"
+        android:visibility="gone"/>
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_h"
+        android:gravity="center_vertical">
+
+        <RelativeLayout
+            android:id="@+id/left_layout"
+            android:layout_width="@dimen/title_h"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/titlebar_left_img"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@mipmap/back_arrow"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/titlebar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title_ts"
+            android:textColor="@color/title_color"
+            android:layout_centerInParent="true"/>
+
+        <com.sxjs.common.widget.imageview.ExpandImageView
+            android:id="@+id/avatar_img"
+            android:layout_height="34dp"
+            android:layout_width="34dp"
+            android:src="@mipmap/back_arrow"
+            android:visibility="gone"
+            android:background="@color/theme_dark_color"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            android:layout_centerInParent="true"/>
+
+
+        <RelativeLayout
+            android:id="@+id/right_layout2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:visibility="gone"
+            android:gravity="center"
+            android:layout_toLeftOf="@+id/right_layout" >
+
+            <TextView
+                android:id="@+id/titlebar_right_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="取消"
+                android:textSize="14sp"
+                android:textColor="@color/text_color_1"/>
+
+            <ImageView
+                android:id="@+id/titlebar_right_img2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:scaleType="centerCrop"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/right_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true" >
+
+            <TextView
+                android:id="@+id/titlebar_right_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="取消"
+                android:visibility="gone"
+                android:textSize="14sp"
+                android:layout_centerInParent="true"
+                android:textColor="@color/text_color_1"/>
+
+            <ImageView
+                android:id="@+id/titlebar_right_img"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:scaleType="centerCrop"
+                android:layout_centerInParent="true"/>
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/infore_sign"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_alignTop="@+id/titlebar_right_img"
+                android:layout_alignRight="@+id/titlebar_right_img"
+                android:layout_marginTop="-3dp"
+                android:visibility="gone"
+                android:background="@drawable/main_color_circle_shape"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

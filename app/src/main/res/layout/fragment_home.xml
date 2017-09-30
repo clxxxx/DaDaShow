@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/home_title_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_h"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/home_location_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="15dp"
+                android:background="@mipmap/ico_location2"/>
+            <TextView
+                android:id="@+id/home_location_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginLeft="5dp"
+                android:maxEms="4"
+                android:lines="1"
+                android:ellipsize="end"
+                android:textColor="@color/title_color"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/home_search_lay"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:background="@drawable/home_title_bar_search_corner_bg">
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ico_seach"/>
+
+            <TextView
+                android:id="@+id/home_search_text"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:textColor="@color/text_color_5"
+                android:textSize="13sp"
+                android:text="连衣裙" />
+            <ImageView
+                android:layout_marginRight="5dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/home_message_lay"
+            android:gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ico_messages"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_light_color"/>
+
+    <com.sxjs.common.widget.headerview.HeaderView
+        android:id="@+id/home_head_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        cube_ptr:ptr_duration_to_close="200"
+        cube_ptr:ptr_duration_to_close_header="400"
+        cube_ptr:ptr_keep_header_when_refresh="true"
+        cube_ptr:ptr_pull_to_fresh="false"
+        cube_ptr:ptr_ratio_of_header_height_to_refresh="1.0"
+        cube_ptr:ptr_resistance="1.7">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/home_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+    </com.sxjs.common.widget.headerview.HeaderView>
+
+</LinearLayout>

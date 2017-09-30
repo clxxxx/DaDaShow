@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/activity_bg_color"
+    android:focusableInTouchMode="false"
+    android:focusable="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.xzry.takeshow.widget.TitleBarView
+            android:id="@+id/titlebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"/>
+        <LinearLayout
+            style="@style/mine_add_address_layout_style">
+            <TextView
+                android:text="联系人："
+                style="@style/mine_add_address_text_style"/>
+            <EditText
+                android:id="@+id/add_address_linkman"
+                style="@style/mine_add_address_edit_style"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            style="@style/mine_add_address_layout_style">
+            <TextView
+                android:text="联系电话："
+                style="@style/mine_add_address_text_style"/>
+            <EditText
+                android:id="@+id/add_address_phone"
+                style="@style/mine_add_address_edit_style"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/add_address_area_lay"
+            android:layout_marginTop="2dp"
+            style="@style/mine_add_address_layout_style">
+            <TextView
+                android:text="所在地区："
+                android:layout_centerVertical="true"
+                style="@style/mine_add_address_text_style"/>
+            <TextView
+                android:id="@+id/add_address_area"
+                style="@style/mine_add_address_edit_style"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            style="@style/mine_add_address_layout_style">
+            <TextView
+                android:text="详细地址："
+                style="@style/mine_add_address_text_style"/>
+            <EditText
+                android:id="@+id/address_info"
+                style="@style/mine_add_address_edit_style"/>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_marginTop="2dp"
+            style="@style/mine_add_address_layout_style"
+            android:gravity="">
+            <TextView
+                android:text="设为默认："
+                android:layout_centerVertical="true"
+                style="@style/mine_add_address_text_style"/>
+            <CheckBox
+                android:id="@+id/address_def"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@null" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/address_save"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="保存"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:background="@color/theme_dark_color"/>
+
+</RelativeLayout>

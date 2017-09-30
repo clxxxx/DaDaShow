@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginBottom="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_15"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/item_add_show_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="段倩"
+                android:textSize="@dimen/sp_14"
+                android:textColor="@color/little_title_color_333333"/>
+            <TextView
+                android:id="@+id/item_add_show_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_15"
+                android:textColor="@color/little_title_color_333333"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/item_add_show_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color_999999"
+            android:textSize="@dimen/sp_13"
+            android:hint="xxxxxxxxx"
+            android:ellipsize="end"
+            android:layout_marginTop="@dimen/dp_15"/>
+    </LinearLayout>
+    <View style="@style/long_line_horizontall"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <LinearLayout
+            android:id="@+id/item_add_default_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <Button
+                android:id="@+id/item_add_default"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:button="@null"
+                android:background="@drawable/select_selected" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设为默认"
+                android:layout_marginLeft="5dp"
+                android:textSize="12sp"
+                android:textColor="@color/little_title_color_333333"
+                android:layout_toRightOf="@+id/item_add_default"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/item_add_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ico_delete_black"
+            android:text="删除"
+            android:textSize="12sp"
+            android:drawablePadding="7.5dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/little_title_color_333333"/>
+        <TextView
+            android:id="@+id/item_add_compile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ico_compile"
+            android:text="编辑"
+            android:textSize="12sp"
+            android:drawablePadding="7.5dp"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/item_add_del"
+            android:textColor="@color/little_title_color_333333"/>
+    </RelativeLayout>
+</LinearLayout>

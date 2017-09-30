@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.sxjs.common">
+
+    <!--<application android:allowBackup="true" android:label="@string/app_name"-->
+        <!--android:supportsRtl="true">-->
+        <!--<activity android:name=".arouter.SchameFilterActivity">-->
+            <!--&lt;!&ndash; Schame &ndash;&gt;-->
+            <!--<intent-filter>-->
+                <!--<data-->
+                    <!--android:host="m.aliyun.com"-->
+                    <!--android:scheme="arouter"/>-->
+
+                <!--<action android:name="android.intent.action.VIEW"/>-->
+
+                <!--<category android:name="android.intent.category.DEFAULT"/>-->
+                <!--<category android:name="android.intent.category.BROWSABLE"/>-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+    <!--</application>-->
+
+</manifest>

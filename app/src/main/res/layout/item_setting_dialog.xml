@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg_color">
+    <TextView
+        style="@style/mine_setting_exit_text"
+        android:text="确定清除本地缓存吗"/>
+    <TextView
+        android:id="@+id/tv_confirm"
+        style="@style/mine_setting_exit_text2"
+        android:layout_marginTop="0.5dp"
+        android:textColor="@color/theme_dark_color"
+        android:text="确定"/>
+    <TextView
+        android:id="@+id/tv_cancel"
+        style="@style/mine_setting_exit_text2"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/little_title_color"
+        android:text="取消"/>
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xzry.takeshow.ui.homepager.SearchDataActivity">
+    <LinearLayout
+        android:id="@+id/home_title_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_h"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/se_da_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:background="@mipmap/back_arrow"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/se_da_search_lay"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:background="@drawable/home_title_bar_search_corner_bg">
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ico_seach"
+                />
+            <TextView
+                android:id="@+id/se_da_search_text"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:textColor="@color/text_color_5"
+                android:textSize="13sp"
+                android:text="连衣裙" />
+            <ImageView
+                android:layout_marginRight="5dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/se_da_more"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ico_more2"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <LinearLayout
+            android:id="@+id/se_da_button_btn1"
+            style="@style/search_data_style">
+            <TextView
+                android:id="@+id/se_da_sales"
+                style="@style/search_data_text"
+                android:text="销量"
+             />
+            <ImageView
+                style="@style/search_data_img"
+                android:background="@drawable/button_select_search_data"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/se_da_button_btn2"
+            style="@style/search_data_style">
+            <TextView
+                style="@style/search_data_text"
+                android:text="新品"/>
+            <ImageView style="@style/search_data_img"
+                android:background="@drawable/button_select_search_data"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/se_da_button_btn3"
+            style="@style/search_data_style">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    style="@style/search_data_text"
+                    android:text="价格"/>
+                <ImageView
+                    android:id="@+id/se_da_price_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ico_price"
+                    android:layout_marginLeft="2.5dp"/>
+            </LinearLayout>
+
+            <ImageView style="@style/search_data_img"
+                android:background="@drawable/button_select_search_data"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View style="@style/long_line_horizontall"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/se_da_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

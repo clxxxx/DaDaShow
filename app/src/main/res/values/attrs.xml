@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--动态添加textview-->
+    <declare-styleable name="AutoNewLineLayout">
+        <attr name="horizontalSpace" format="dimension|reference"/>
+
+        <attr name="vertivalSpace" format="dimension|reference"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="TitleBarView">
+        <attr name="titleBarTitle" format="string" />
+
+        <attr name="titleBarLeftImage" format="reference" />
+
+        <attr name="titleBarRightImage" format="reference" />
+
+        <attr name="titleBarRightText" format="reference" />
+
+        <attr name="titleBarBackground" format="reference|color" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="ShapedImageView">
+        <attr name="shape_mode" format="enum">
+            <enum name="round_rect" value="1" />
+            <enum name="circle" value="2" />
+        </attr>
+        <attr name="round_radius" format="dimension" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="RoundCornerImageView">
+        <attr name="radius" format="integer|reference"/>
+    </declare-styleable>
+    <!--&lt;!&ndash;圆形图片&ndash;&gt;-->
+    <!--<declare-styleable name="CircleImageView">-->
+        <!--<attr name="civ_border_width" format="dimension" />-->
+        <!--<attr name="civ_border_color" format="color" />-->
+        <!--<attr name="civ_border_overlay" format="boolean" />-->
+        <!--<attr name="civ_fill_color" format="color" />-->
+    <!--</declare-styleable>-->
+    <declare-styleable name="PayPsdInputView">
+
+        <attr name="maxCount" format="integer" />
+        <attr name="circleColor" format="color" />
+        <attr name="bottomLineColor" format="color" />
+        <attr name="radiu" format="dimension" />
+        <attr name="divideLineWidth" format="dimension" />
+        <attr name="divideLineColor" format="color" />
+        <attr name="rectAngle" format="dimension" />
+        <attr name="focusedColor" format="color"/>
+        <attr name="psdType" format="enum">
+            <enum name="weChat" value="0" />
+            <enum name="bottomLine" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

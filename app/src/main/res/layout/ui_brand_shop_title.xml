@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--标题栏-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_collapseMode="pin"
+    android:orientation="vertical">
+    <View
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_h"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dp_15"
+            android:paddingRight="@dimen/dp_15"
+            android:paddingTop="@dimen/dp_3"
+            android:paddingBottom="@dimen/dp_3">
+
+            <ImageView
+                android:id="@+id/brand_sp_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ico_back"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/brand_sp_search_lay"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:alpha="0.3"
+            android:background="@drawable/brand_shop_search_bg_color">
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ico_seach"
+                />
+            <TextView
+                android:id="@+id/home_search_text"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:textColor="@color/text_color_3"
+                android:textSize="13sp"
+                android:lines="1"
+                android:ellipsize="end"
+                android:text="连衣裙" />
+            <ImageView
+                android:layout_marginRight="5dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dp_15"
+            android:paddingRight="@dimen/dp_15"
+            android:paddingTop="@dimen/dp_3"
+            android:paddingBottom="@dimen/dp_3">
+
+            <ImageView
+                android:id="@+id/brand_sp_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ico_more"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/little_title_color"
+            android:text="选择自提时间"
+            android:textSize="14sp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ico_close_page"/>
+
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/line_light_color"/>
+
+    <TextView
+        android:id="@+id/time1"
+        android:layout_width="match_parent"
+        android:textColor="@color/main_color_text_selected"
+        android:text="选择自提时间"
+        android:layout_margin="15dp"
+        android:textSize="14sp"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/line_light_color"/>
+
+    <TextView
+        android:id="@+id/time2"
+        android:layout_width="match_parent"
+        android:textColor="@color/main_color_text_selected"
+        android:text="选择自提时间"
+        android:layout_margin="15dp"
+        android:textSize="14sp"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/line_light_color"/>
+
+    <TextView
+        android:id="@+id/time3"
+        android:layout_width="match_parent"
+        android:textColor="@color/main_color_text_selected"
+        android:text="选择自提时间"
+        android:layout_margin="15dp"
+        android:textSize="14sp"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/line_light_color"/>
+
+    <TextView
+        android:id="@+id/time4"
+        android:layout_width="match_parent"
+        android:textColor="@color/main_color_text_selected"
+        android:text="选择自提时间"
+        android:layout_margin="15dp"
+        android:textSize="14sp"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/line_light_color"/>
+
+    <TextView
+        android:id="@+id/time5"
+        android:layout_width="match_parent"
+        android:textColor="@color/main_color_text_selected"
+        android:text="选择自提时间"
+        android:layout_margin="15dp"
+        android:textSize="14sp"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/line_light_color"/>
+
+    <TextView
+        android:id="@+id/time6"
+        android:layout_width="match_parent"
+        android:textColor="@color/main_color_text_selected"
+        android:text="选择自提时间"
+        android:layout_margin="15dp"
+        android:textSize="14sp"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/line_light_color"/>
+
+    <TextView
+        android:id="@+id/time7"
+        android:layout_width="match_parent"
+        android:textColor="@color/main_color_text_selected"
+        android:text="选择自提时间"
+        android:layout_margin="15dp"
+        android:textSize="14sp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/activity_bg_color"
+    tools:context="com.xzry.takeshow.ui.mine.AddressActivity">
+    <com.xzry.takeshow.widget.TitleBarView
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View style="@style/long_line_horizontall"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:id="@+id/address_add"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_h"
+        android:gravity="center"
+        android:background="@color/theme_dark_color">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新增地址"
+            android:drawableLeft="@mipmap/plus_white"
+            android:drawablePadding="10dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</LinearLayout>

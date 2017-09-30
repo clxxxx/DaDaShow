@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TakeShow</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_shop">ShopActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string name="exit_app">在按一次返回键退出</string>
+    <!--时尚圈-->
+    <string name="fashion_titie_left">推荐</string>
+    <string name="fashion_titie_right">关注</string>
+
+
+    <!--商品详情-->
+    <string name="commodity_titie_left">商品</string>
+    <string name="commodity_titie_right">详情</string>
+    <string name="commodity_discuss_count">买家评价(%1$d)</string>
+    <string name="commodity_stock">库存%1$d件</string>
+    <string name="exit_account">退出当前账号</string>
+
+    <!--购物车-->
+    <string name="shoppingcar_goods_count">结算(%1$d)</string>
+
+    <string name="cp_nothing_found">没有搜索结果</string>
+
+    <string name="feedback_text">请写下您宝贵的意见和建议～</string>
+    <string name="feedback_phone_text">请您留下联系方式(电话/QQ/邮箱)</string>
+
+    <string name="setting_access_hint">请到手机设置中开启搭搭秀的存储访问权限</string>
+
+
+    <string name="appbar_overscroll_behavior">me.stefan.easybehavior.demo1.behavior.AppBarLayoutOverScrollViewBehavior</string>
+    <string name="appbar_circleimageview_behavior">com.xzry.takeshow.ui.integralshop.CircleImageInUsercBehavior</string>
+    <string name="appbar_coali_behavior">me.stefan.easybehavior.demo2.behavior.CoAliRefreshBehavior</string>
+
+
+</resources>

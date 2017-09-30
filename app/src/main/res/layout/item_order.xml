@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:melove="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/top_interval"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/activity_bg_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/ico_shop"/>
+
+        <TextView
+            android:id="@+id/store_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="乐町旗舰店"
+            android:textSize="14sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/little_title_color"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/more"/>
+
+        <TextView
+            android:id="@+id/order_state"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="等待买家付款"
+            android:textSize="14sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/theme_dark_color"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/commodity_recyclerView"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:paddingRight="15dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/order_state_cancle"
+            style="@style/order_state"
+            android:visibility="gone"
+            android:text="取消订单"/>
+
+        <TextView
+            android:id="@+id/order_state_payment"
+            style="@style/order_state2"
+            android:visibility="gone"
+            android:text="付款"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/order_state_deliver"
+            style="@style/order_state"
+            android:visibility="gone"
+            android:text="提醒发货"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/order_state_goods_code"
+            style="@style/order_state2"
+            android:visibility="gone"
+            android:text="提货码"
+            android:layout_marginLeft="15dp"/>
+
+
+        <TextView
+            android:id="@+id/order_state_check_logistics"
+            style="@style/order_state"
+            android:visibility="gone"
+            android:text="查看物流"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/order_state_affirm_receive"
+            style="@style/order_state2"
+            android:visibility="gone"
+            android:text="确认收货"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/order_state_goods_code2"
+            style="@style/order_state"
+            android:visibility="gone"
+            android:text="提货码"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/order_state_evaluate"
+            style="@style/order_state2"
+            android:visibility="gone"
+            android:text="评价"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

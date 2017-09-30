@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xzry.takeshow.widget.TitleBarView
+        android:id="@+id/commodity_discuss_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/activity_bg_color">
+
+        <com.sxjs.common.widget.imageview.ExpandImageView
+            android:id="@+id/avatar_img"
+            android:scaleType="centerCrop"
+            android:layout_width="44dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/color_text_01"
+            android:layout_height="44dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:singleLine="true"
+            android:text="预售乐町2017秋装新款蕾丝镂空拼接白色..."
+            android:textColor="@color/little_title_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginRight="15dp"
+            android:text="￥189"
+            android:textColor="@color/theme_dark_color"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recommend_recyclerView"
+        android:layout_width="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@color/line_light_color"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

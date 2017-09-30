@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.sxjs.common.widget.percentlayout.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.sxjs.common.widget.imageview.ExpandImageView
+            android:id="@+id/avatar_img"
+            android:scaleType="centerCrop"
+            app:roundAsCircle="true"
+            app:placeholderImage="@mipmap/pho_avatar"
+            android:layout_width="41dp"
+            android:layout_height="41dp"/>
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="两木陈小姐"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/avatar_img"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/title_color"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="刚刚"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="5dp"
+            android:layout_alignLeft="@+id/name"
+            android:textColor="@color/text_color_3"
+            android:textSize="10sp"/>
+
+        <ImageView
+            android:id="@+id/attention"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/attention"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </com.sxjs.common.widget.percentlayout.PercentRelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/little_title_color"
+        android:textSize="13sp"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="3dp"
+        android:text="世上本没有什么完美，找一个自足的方式。安顿好自己就好] 没有收拾残局的能力，就别放纵善变的情绪。"/>
+
+    <com.sxjs.common.widget.MyGridView
+        android:id="@+id/myGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:horizontalSpacing="5dp"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:verticalSpacing="5dp">
+
+    </com.sxjs.common.widget.MyGridView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/line_light_color"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="4dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/share"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1821"
+                android:textSize="12sp"
+                android:layout_marginLeft="9dp"
+                android:textColor="@color/text_color_1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/comment"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1821"
+                android:textSize="12sp"
+                android:layout_marginLeft="9dp"
+                android:textColor="@color/text_color_1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/like_ll"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/like_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/praise"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1821"
+                android:textSize="12sp"
+                android:layout_marginLeft="9dp"
+                android:textColor="@color/text_color_1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

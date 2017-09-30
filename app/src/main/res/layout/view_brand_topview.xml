@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sxjs.common.widget.aspect_ratio_layout.AspectRatioRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    app:Layout_viewAspectRatio="1.53"
+    android:layout_height="wrap_content">
+
+    <com.sxjs.common.widget.imageview.ExpandImageView
+        android:id="@+id/brand_log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@color/img_bg"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#15000000"/>
+
+    <com.sxjs.common.widget.aspect_ratio_layout.AspectRatioLinearLayout
+        android:id="@+id/brand_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        app:Layout_viewAspectRatio="3.95"
+        android:background="@mipmap/bg_hilitecolor">
+
+        <TextView
+            android:id="@+id/brand_remark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:textSize="11sp"
+            android:textColor="@color/little_title_color"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp"
+            android:ellipsize="end"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/activity_bg_color"/>
+
+    </com.sxjs.common.widget.aspect_ratio_layout.AspectRatioLinearLayout>
+
+    <com.sxjs.common.widget.imageview.ExpandImageView
+        android:id="@+id/brand_logs"
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        app:roundAsCircle="true"
+        app:roundingBorderWidth="2dp"
+        android:layout_above="@+id/brand_tv"
+        android:layout_marginBottom="-25dp"
+        app:roundingBorderColor="@color/white"
+        android:layout_centerHorizontal="true"/>
+
+
+</com.sxjs.common.widget.aspect_ratio_layout.AspectRatioRelativeLayout>

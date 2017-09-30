@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    style="@style/activity_bg"
+    android:orientation="vertical"
+    tools:context="com.xzry.takeshow.ui.mine.PersonalDataActivity">
+    <com.xzry.takeshow.widget.TitleBarView
+        android:id="@+id/titlebar_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:id="@+id/personal_data_headimg"
+        android:layout_below="@+id/titlebar_view"
+        style="@style/mine_setting_lin"
+        android:layout_marginTop="@dimen/dp_10">
+        <TextView
+            style="@style/mine_setting_text"
+            android:text="头像" />
+        <com.sxjs.common.widget.imageview.ExpandImageView
+            android:id="@+id/personal_data_tv_headimg"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_15"
+            android:layout_toLeftOf="@+id/personal_data_right"
+            fresco:roundAsCircle="true"
+            fresco:placeholderImage="@mipmap/default_avatar"/>
+        <ImageView
+            android:id="@+id/personal_data_right"
+            style="@style/mine_list_img_right" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/personal_data_nickname"
+        android:layout_below="@+id/titlebar_view"
+        style="@style/mine_setting_lin"
+        android:layout_marginTop="@dimen/dp_10">
+        <TextView
+            style="@style/mine_setting_text"
+            android:text="昵称" />
+        <TextView
+            android:id="@+id/personal_data_tv_nickname"
+            style="@style/setting_per_dada_text"
+            android:layout_toLeftOf="@+id/personal_data_right2"/>
+        <ImageView
+            android:id="@+id/personal_data_right2"
+            style="@style/mine_list_img_right" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/personal_data_time"
+        android:layout_below="@+id/titlebar_view"
+        style="@style/mine_setting_lin"
+        android:layout_marginTop="0.5dp">
+        <TextView
+            style="@style/mine_setting_text"
+            android:text="出生日期" />
+        <TextView
+            android:id="@+id/personal_data_tv_datatime"
+            style="@style/setting_per_dada_text"
+            android:layout_toLeftOf="@+id/personal_data_right3"/>
+        <ImageView
+            android:id="@+id/personal_data_right3"
+            style="@style/mine_list_img_right" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/personal_dada_sex"
+        android:layout_below="@+id/titlebar_view"
+        style="@style/mine_setting_lin"
+        android:layout_marginTop="0.5dp">
+        <TextView
+            style="@style/mine_setting_text"
+            android:text="性别" />
+        <TextView
+            android:id="@+id/personal_data_tv_sex"
+            style="@style/setting_per_dada_text"
+            android:layout_toLeftOf="@+id/personal_data_right4"/>
+        <ImageView
+            android:id="@+id/personal_data_right4"
+            style="@style/mine_list_img_right" />
+    </RelativeLayout>
+</LinearLayout>
